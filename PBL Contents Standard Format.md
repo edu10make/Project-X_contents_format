@@ -6,7 +6,7 @@
 
 ### id
 | 형식 | 변수형 | 필수 여부 |
-|---|---|----|
+|:---:|:---:|:----:|
 | `변수` | `int` | `필수` |
 
 여러 개의 프로젝트를 구분하기 위해 각 프로젝트의 고유 번호를 입력한다.
@@ -15,7 +15,7 @@
 
 ### title
 | 형식 | 변수형 | 필수 여부 |
-|---|---|----|
+|:---:|:---:|:----:|
 | `변수` | `string` | `필수` |
 
 프로젝트의 이름을 입력한다. 프로젝트 이름은 한 줄 이내의 핵심적인 내용을 담아, 제목만 보고도 프로젝트를 대략적으로 파악할 수 있도록 한다.
@@ -23,7 +23,7 @@
 ### levels
 
 - `appropriate level` : 프로젝트의 적정 레벨을 'int 변수'로 입력한다. `appropriate level`를 통해 학생들은 해당 프로젝트의 난이도를 가늠할 수 있다.
-- `detailed levels` : 프로젝트의 적정 레벨을 'string 배열'로 입력한다. `detailed levels`는 'PSI에서 제공하는 tech-skill 역량명세서 - 수준 구분'을 참고한다.
+- `detailed levels` : 프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech-skill 역량명세서 - 수준 구분'을 참고한다.
 
 ### objects
 
@@ -32,7 +32,7 @@
 
 ### skills
 
-- knowledge skills
+- `knowledge skills` : 
 - tech skills
 
 	- class
