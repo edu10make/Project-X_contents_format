@@ -176,11 +176,11 @@
             }
 ```
 
-- `main objects` : 
-- `detailed objects` : 
+- `main objects` : 해당 미션의 가장 핵심적인 목표를 입력한다. 이 때, 핵심 목표를 'string 배열'로 입력하여 핵심 목표가 여러 개인 경우에 대응할 수 있다. 
+- `detailed objects` : 해당 미션의 세부적인 목표를 입력한다.
 
-	- `item` : 
-	- `optional` : 
+	- `item` : 세부 목적을 'string 변수'로 입력한다. 
+	- `optional` : 입력한 세부 목적이 optional한 것인지 혹은 필수적인 것인지 `boolean` type으로 입력한다. 만약 세부 목적이 'optional'하다면 `true`를 입력한다. 
 
 ### 2.5 result
 
@@ -241,16 +241,37 @@ __해당 기준은 미션을 수행하는 학생에게는 공개되지 않으며
 
 - `item` : 미션을 평가하는 기준이다. 'string 변수'로 입력한다.
 - `class` : 해당 평가 기준으로 피평가자의 어떤 역량을 측정할 수 있는지 서술한다. 'string 변수'로 입력한다. 
-- `type` : 평가자가 해당 미션을 평가하는 방법을 결정한다. 아래의 옵션 중에 결정하여 `type`에 기입한다. 
+- `type` : 평가자가 해당 미션을 평가하는 방법을 결정한다. 아래의 3가지 옵션 중에 결정하여 `type`에 기입한다. 
 	- `radio` : 여러 개의 옵션 중 하나의 선택지만 선택할 수 있다. 
-	- 
-<input type="radio" name="chk_info" value="HTML">HTML
-<input type="radio" name="chk_info" value="CSS">CSS
-<input type="radio" name="chk_info" value="웹디자인">웹디자인
-- `option` :
+	- `check_box` : 여러 개의 옵션 중 다수의 선택지를 고를 수 있다. 
+	- `text` : 주관식 평가를 위해 text형식으로 평가를 입력 받을 때 선택한다. 
+- `option` : 만약 `type`에서 `radio` 혹은 `check_box`를 선택했다면, 선택할 수 있는 옵션들을 'string 배열'로 입력한다. 
 
 ### 2.7 quiz
 
+
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `필수` |
+
+```json
+"quiz": [{
+                    "class": "Data Explore & Preprocess",
+                    "question": "판다스 데이터 프레임을 간단하게 요약해서 보여주며, 주로 데이터 타입을 확인할 때 사용하는 메소드는?",
+                    "answer": "info() (sample(), describe()을 적었을 경우 점수 반만 부여)"
+                },
+                {
+                    "class": "Data Explore & Preprocess",
+                    "question": "열에 어떤 데이터들이 있는지 확인해 보고 싶을 때 사용하는 메소드는?",
+                    "answer": "set(), unique() (둘중 하나만 적어도 정답)"
+                },
+                {
+                    "class": "Data Analysis",
+                    "question": "판다스 데이터의 개수를 세기 위해서 사용하는 메소드, 예를 들어 no show의 yes와 no의 개수를 세기위해서 어떤 메소드를 사용해야 하는가?",
+                    "answer": "size()"
+                }
+	]
+```
 - class
 - question
 - answer
