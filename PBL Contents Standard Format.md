@@ -1,5 +1,8 @@
 # PBL Contents Standard Format
 
+![PBL Contents Standard Format](https://user-images.githubusercontent.com/47736525/115192842-4eee4780-a126-11eb-9c85-5abcd10f27aa.png)
+
+
 ## Mission
 
 ### mission id
