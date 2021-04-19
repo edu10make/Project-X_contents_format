@@ -23,8 +23,8 @@
 ### levels
 
 - `appropriate level` : 프로젝트의 적정 레벨을 'int 변수'로 입력한다. `appropriate level`를 통해 학생들은 해당 프로젝트의 난이도를 가늠할 수 있다.
-- `detailed levels` : 프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech-skill 역량명세서 - 수준 구분'을 참고한다.
-<span style="color:blue">some *This is Blue italic.* text</span>
+- `detailed levels` : 프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech skill 역량명세서 - 수준 구분'을 참고한다.
+
 ### objects
 
 - `main object` : 프로젝트의 중추적인 목표를 'string 변수'로 입력한다. `main object`에는 프로젝트가 해결하고자 하는 문제나 프로젝트가 끝났을 때 학생들이 만들어 낼 결과물을 기술한다.
@@ -32,18 +32,18 @@
 
 ### skills
 
-- `knowledge skills` : 
-- tech skills
+- `knowledge skills` : 프로젝트를 수행하는데 사용할 기술들을 간략하게 'string 배열'로 기술한다. 학생들은 `knowlege skills`을 미션을 수행할 때 키워드로 활용할 수 있고, 또한 `knowlege skills`를 통해 해당 프로젝트에서 어떠한 기술들을 다루는지 대략적으로 파악할 수 있다.  
+- `tech skills` : 여러 개의 'tech skill'로 이루어진 객체 배열이다. 또한, 하나의 'tech skill'은 PSI에서 제공하는 'tech skill 역량명세서 - 경험리스트'의 항목들로 구성되어야 한다. 따라서 'tech skill 역량명세서 - 경험리스트'의 형식에 따라 하나의 'tech skill'은 아래와 같은 항목들을 포함한다. 
 
-	- class
-	- experience
-	- difficulty
+	- `class` : 'tech skill 역량명세서 - 경험리스트' 중 '카테고리'에 해당하는 내용을 'string 변수'로 입력한다.
+	- `experience` : 'tech skill 역량명세서 - 경험리스트' 중 '경험'에 해당하는 내용을 'string 변수'로 입력한다.
+	- `difficulty` : 'tech skill 역량명세서 - 경험리스트' 중 '난이도'에 해당하는 내용을 'string 변수'로 입력한다.
 
 - soft skills
 
-	- class
-	- key word
-	- action
+	- `class` : 
+	- `key word`
+	- `action`
 
 ## 2. Mission
 
