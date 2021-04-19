@@ -57,7 +57,7 @@
             "knowledge_skill": ["Python", "Jupyter_Notebook", "TensorFlow", "NumPy", "Pandas", "scikit-learn", "CNN"],
 
             "tech_skills": [{
-                    "class": "",
+                    "class": "Data분석(데이터 처리 역량)",
                     "experience": ["수집된 데이터를 특정 포맷으로 가공하고 정렬할 수 있다",
                         "수집된 데이터에서 잘못된 데이터를 찾아 수정 삭제할 수 있다.",
                         "수집된 데이터에서 불필요한 차원을 제거할 수 있다."
@@ -73,7 +73,8 @@
                     "difficulty": 3
                 }
             ],
-            "soft_skills": [{
+            "soft_skills": [
+	        {
                     "class": "비판적 사고",
                     "keyword": "핵심 정보 파악",
                     "action": "비판적 사고/핵심 정보 파악/다양한 정보나 아이디어를 무작정 수용하지않고 업무에 도움이 되는 것과 그렇지 않은 것을 구별할 수 있다."
@@ -136,7 +137,8 @@
                 "main_object": [
                     "Modeling: 현재까지 가공 및 분석한 환자 데이터를 토대로 CNN 모델을 개발하라"
                 ],
-                "detailed_objects": [{
+                "detailed_objects": [
+		    {
                         "detailed_object": "데이터를 2 개 이상의 알고리즘으로 모델링하고 score 를 확인하라.",
                         "optional": true
                     },
