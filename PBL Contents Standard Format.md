@@ -27,7 +27,7 @@
 - `detailed levels` : 프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech skill 역량명세서 - 수준 구분'을 참고한다.
 
 ### objects
-```json
+```python
 "objects": {
             "main_object": "프로젝트 메인 주제",
             "detailed_object": ["데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
