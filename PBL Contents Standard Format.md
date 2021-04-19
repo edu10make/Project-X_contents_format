@@ -25,21 +25,29 @@
 
 - `appropriate level` : 프로젝트의 적정 레벨을 'int 변수'로 입력한다. `appropriate level`를 통해 학생들은 해당 프로젝트의 난이도를 가늠할 수 있다.
 - `detailed levels` : 프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech skill 역량명세서 - 수준 구분'을 참고한다.
+```json
+"levels": {
+            "appropriate level": 2,
+            "detailed levels": ["AI/Data분석/Edu4",
+                "AI/모델개발/Edu4",
+                "AI/AIOps/Edu4"
+            ]
+        }
+```
 
 ### objects
-```python
+
+- `main object` : 프로젝트의 중추적인 목표를 'string 변수'로 입력한다. `main object`에는 프로젝트가 해결하고자 하는 문제나 프로젝트가 끝났을 때 학생들이 만들어 낼 결과물을 기술한다.
+- `detailed objects` : 프로젝트의 세부적인 목표들을 'string 배열'로 입력한다. `main object`를 달성하기 위해 수행할 세부적인 목표들을 기술한다.
+```json
 "objects": {
             "main_object": "프로젝트 메인 주제",
-            "detailed_object": ["데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
+            "detailed_objects": ["데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
                 "데이터를 자세하게 분석하고 해당 내용에 대해 설명할 수 있다.",
                 "모델링을 경험해볼 수 있다."
             ]
         },
 ```
-
-- `main object` : 프로젝트의 중추적인 목표를 'string 변수'로 입력한다. `main object`에는 프로젝트가 해결하고자 하는 문제나 프로젝트가 끝났을 때 학생들이 만들어 낼 결과물을 기술한다.
-- `detailed objects` : 프로젝트의 세부적인 목표들을 'string 배열'로 입력한다. `main object`를 달성하기 위해 수행할 세부적인 목표들을 기술한다.
-
 ### skills
 
 - `knowledge skills` : 프로젝트를 수행하는데 사용할 기술들을 간략하게 'string 배열'로 기술한다. 학생들은 `knowlege skills`을 미션을 수행할 때 키워드로 활용할 수 있고, 또한 `knowlege skills`를 통해 해당 프로젝트에서 어떠한 기술들을 다루는지 대략적으로 파악할 수 있다.  
@@ -54,6 +62,41 @@
 	- `class` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '역량명'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `key word` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '키워드'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `action` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '행동 지표'에 해당하는 내용을 'string 변수'로 입력한다.
+
+```json
+"skills": {
+            "knowledge_skill": ["Python", "Jupyter_Notebook", "TensorFlow", "NumPy", "Pandas", "scikit-learn", "CNN"],
+
+            "tech_skills": [{
+                    "class": "",
+                    "experience": ["수집된 데이터를 특정 포맷으로 가공하고 정렬할 수 있다",
+                        "수집된 데이터에서 잘못된 데이터를 찾아 수정 삭제할 수 있다.",
+                        "수집된 데이터에서 불필요한 차원을 제거할 수 있다."
+                    ],
+                    "difficulty": 2
+                },
+                {
+                    "class": "Data분석(데이터 추론 역량)",
+                    "experience": ["모집단으로부터 추출된 표본을 바탕으로 통계적 추론이 가능하다.",
+                        "대용량의 자료에서 데이터의 관계, 패턴, 규칙을 탐색하고 활용할 수 있다.",
+                        "모델링을 위한 성능 평가 지표를 정의하고 구현할 수 있다."
+                    ],
+                    "difficulty": 3
+                }
+            ],
+            "soft_skills": [{
+                    "class": "비판적 사고",
+                    "keyword": "핵심 정보 파악",
+                    "action": "비판적 사고/핵심 정보 파악/다양한 정보나 아이디어를 무작정 수용하지않고 업무에 도움이 되는 것과 그렇지 않은 것을 구별할 수 있다."
+                },
+                {
+                    "class": "비판적 사고",
+                    "keyword": "근본 원인 규명",
+                    "action": "비판적 사고/근본 원인 규명/문제 발생 시, 문제 해결을 위해 근본 원인을 해결할 수 있다."
+                }
+            ]
+        }
+```
 
 ## 2. Mission
 하나의 프로젝트는 여러 개의 미션으로 구성되고, 해당 목차에서는 각 미션에 포함되어야 할 내용들을 기술한다.
@@ -78,17 +121,23 @@
 | `배열` | `string` | `선택` |
 
 미션을 수행하면서 참고할 수 있는 기술들을 배열로 기술한다. 
+```json
+"keywords": ["NumPy", "Pandas", "matplotlib", "seaborn", "data_analysis"]
+```
 
 ### mission object
 
-- main objects
-- detailed objects
+- `main objects`
+- `detailed objects`
 
-	- item
-	- optional
+	- `item`
+	- `optional`
 
 ### result
 
+```json
+"result": ["데이터 분석 보고서", "데이터 분석 발표 동영상"]
+```
 ### evaluation standard
 
 - item
