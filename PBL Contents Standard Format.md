@@ -37,6 +37,7 @@
 
 
 ### 1.4 objects
+```json
 "objects": {
             "main_object": "프로젝트 메인 주제",
             "detailed_objects": ["데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
@@ -48,7 +49,7 @@
 
 - `main object` : 프로젝트의 중추적인 목표를 'string 변수'로 입력한다. `main object`에는 프로젝트가 해결하고자 하는 문제나 프로젝트가 끝났을 때 학생들이 만들어 낼 결과물을 기술한다.
 - `detailed objects` : 프로젝트의 세부적인 목표들을 'string 배열'로 입력한다. `main object`를 달성하기 위해 수행할 세부적인 목표들을 기술한다.
-```json
+
 
 ### 1.5 skills
 ```json
