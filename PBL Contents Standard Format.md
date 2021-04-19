@@ -1,6 +1,7 @@
 # PBL Contents Standard Format
 
-![PBL Contents Standard Format](https://user-images.githubusercontent.com/47736525/115192842-4eee4780-a126-11eb-9c85-5abcd10f27aa.png)
+![PBL Contents Standard Format_map](https://user-images.githubusercontent.com/47736525/115193729-83163800-a127-11eb-8903-923be6f22a25.png)
+
 ## 1. Project
 
 ### id
