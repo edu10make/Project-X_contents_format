@@ -121,13 +121,15 @@
 미션에서 수행할 내용을 단어나, 문장 단위로 간략하게 기술한다. 
 
 ### 2.3 kewords
-```json
-"keywords": ["NumPy", "Pandas", "matplotlib", "seaborn", "data_analysis"]
-```
+
 
 | 형식 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
 | `배열` | `string` | `선택` |
+
+```json
+"keywords": ["NumPy", "Pandas", "matplotlib", "seaborn", "data_analysis"]
+```
 
 미션을 수행하면서 참고할 수 있는 기술들을 배열로 기술한다. 
 
@@ -158,16 +160,59 @@
 
 ### 2.5 result
 
+| 형식 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `string` | `필수` |
+
 ```json
 "result": ["데이터 분석 보고서", "데이터 분석 발표 동영상"]
 ```
+
+미션이 종료되고 어떤 결과가 나와야 하는지 서술한다. `result`항목을 통해 학생들은 자신이 미션에서 어떤 결과물을 산출해야 하는지 명확하게 알 수 있다.
+
 ### 2.6 evaluation standard
 
-- item
-- class
-- tag
-- type
-- option
+| 형식 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `필수` |
+
+```json
+"evaluation_standard": [{
+                    "item": "구글드라이브에 저장했는가?",
+                    "class": "Data Store",
+                    "tag": "input",
+                    "type": "radio",
+                    "option": [
+                        "예",
+                        "아니오"
+                    ]
+                },
+                {
+                    "item": "try except의 사용으로 데이터 엑세스 에러에 대처했는가?",
+                    "class": "Data Store",
+                    "type": "radio",
+                    "option": [
+                        "예",
+                        "아니오"
+                    ]
+                },
+                {
+                    "item": "오타를 고쳤는가?",
+                    "class": "Data Explore & Preprocess",
+                    "type": "radio",
+                    "option": [
+                        "예",
+                        "아니오"
+                    ]
+                }
+	]
+```
+
+- `item` :
+- `class` :
+- `tag` :
+- `type` :
+- `option` :
 
 ### 2.7 quiz
 
