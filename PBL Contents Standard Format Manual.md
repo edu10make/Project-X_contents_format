@@ -1,5 +1,6 @@
 # PBL Contents Standard Format
-![Project](https://user-images.githubusercontent.com/47736525/115352472-5d099a00-a1f2-11eb-92f6-2ba130e36956.png)
+![Project_w](https://user-images.githubusercontent.com/47736525/115352595-7f9bb300-a1f2-11eb-94ec-7ad24ca4cce7.png)
+
 
 
 ## 0. Operation
