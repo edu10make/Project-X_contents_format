@@ -183,10 +183,8 @@
 
 
 ## 2. Levels
-하나의 프로젝트는 여러 개의 level들로 구성되고, 해당 목차에서는 레벨에 포함되어야 할 항목들을 기술한다. 
-
-![PROJECT 설계서-Page-1](https://user-images.githubusercontent.com/47736525/115350937-a953da80-a1f0-11eb-9d09-b08f4a191c72.png)<br>
-즉 `Levels`는 여러개의 레벨로 이루어진 하나의 객체이다.
+하나의 프로젝트는 여러 개의 level들로 구성되고, 해당 목차에서는 하나의 레벨에 포함되어야 할 항목들을 기술한다. <br>
+즉 `Levels`는 여러 개의 level로 이루어진 하나의 객체이다.
 
 ### 2.1 appropriate_level
 | 개수 | 변수형 | 필수 여부 |
