@@ -341,11 +341,11 @@
 
 ```json
 "resource": [{
-                "subject": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
+                "item": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
                 "link": "https://en.wikipedia.org/wiki/Convolution_neural_network"
             },
             {
-                "subject": "scikit-learn 에 대한 일반적인 이해 (위키피디아)",
+                "item": "scikit-learn 에 대한 일반적인 이해 (위키피디아)",
                 "link": "https://en.wikipedia.org/wiki/Scikit-learn"
             }
         ]
@@ -355,5 +355,3 @@
 - `link` : 참고 자료 
 
 
-
-*XMind - Trial Version*
