@@ -1,6 +1,73 @@
 # PBL Contents Standard Format
+![PBL Contents Standard Format_operation](https://user-images.githubusercontent.com/47736525/115327513-1142fa80-a1ca-11eb-859b-6faf76397807.png)
 
-![PBL Contents Standard Format_map](https://user-images.githubusercontent.com/47736525/115193729-83163800-a127-11eb-8903-923be6f22a25.png)
+
+## 0. Operation
+프로젝트의 운영 방식을 결정한다.<br>
+해당 챕터에서 결정해야 할 내용은 다음과 같다.
+- `period` : 학습 기간
+- `progress` : 학습 진행 방식
+- `matching` : 평가자 매칭 방식
+
+### 0.1 period
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `객체` | `필수` |
+
+프로젝트의 시작 시기, 끝나는 시기와 기간에 대한 옵션을 지정한다.
+```json
+"period": {
+            "self_paced":true,
+            "start": 2021050313,
+            "finish": 202105023
+        }
+```
+- `self_paced` : `boolean`변수가 인자로 들어가며 프로젝트가 'self-paced'방식으로 진행되는지 여부를 결정한다. 만약 `false`라면 fixed timeline으로 프로젝트가 진행된다. 
+- `start` : 프로젝트의 예정 시작일 및 예정 시작 시간을 입력한다. 10자리 `int`형 변수이며 '연도(4자리)' + '월(2자리)' + '일(2자리)' + '시간(2자리)'로 구성된다.
+- `finish` : 프로젝트의 예정 종료일 및 예정 종료 시간을 입력한다. 10자리 `int`형 변수이며 '연도(4자리)' + '월(2자리)' + '일(2자리)' + '시간(2자리)'로 구성된다.
+
+### 0.2 progress
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `객체` | `필수` |
+
+프로젝트의 진행 방식을 결정한다. 
+```json
+"progress": {
+            "select": "peer_learning",
+            "option": [
+                "self_learning",
+                "peer_learning",
+                "lecture"
+            ]
+        }
+```
+
+- `option` : 'string 배열'로 가능한 프로젝트 진행 옵션들을 나열한다. 
+- `select` : 가능한 `option`중 해당 프로젝트가 진행 방식으로 선택한 option을 기입한다. 
+
+### 0.3 matching
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `객체` | `필수` |
+
+프로젝트 동료 평가자 방식을 결정한다. 
+```json
+"matching": {
+           "select": "random",
+           "option": [
+               "random",
+               "designate",
+               "select"
+            ]
+
+       }
+    }
+```
+
+- `option` : 'string 배열'로 가능한 프로젝트 진행 옵션들을 나열한다. 
+- `select` : 가능한 `option`중 해당 프로젝트가 동료 평가자 선택 방식으로 선택한 option을 기입한다. 
+
 
 ## 1. Project
 프로젝트 전체적인 내용에 대해 서술한다.
@@ -10,7 +77,7 @@
 |:---:|:---:|:----:|
 | `단일` | `int` | `필수` |
 
-여러 개의 프로젝트를 구분하기 위해 각 프로젝트의 고유 번호를 입력한다.
+여러 개의 프로젝트를 구분하기 위해 각 프로젝트의 고유 번호를 입력한다.<br>
 프로젝트의 고유번호는 4자리 숫자로 구성되며, 서로 다른 프로젝트는 동일한 고유번호를 가질 수 없다. 
 
 
@@ -107,13 +174,13 @@
 ```
 
 - `knowledge skills` : 프로젝트를 수행하는데 사용할 기술들을 간략하게 'string 배열'로 기술한다. 학생들은 `knowlege skills`을 미션을 수행할 때 키워드로 활용할 수 있고, 또한 `knowlege skills`를 통해 해당 프로젝트에서 어떠한 기술들을 다루는지 대략적으로 파악할 수 있다.  
-- `tech skills` : 여러 개의 'tech skill'로 이루어진 객체 배열이다. 하나의 'tech skill'은 PSI에서 제공하는 'tech skill 역량명세서 - 경험리스트'의 항목으로 구성되어야 한다. 따라서  하나의 'tech skill'은 'tech skill 역량명세서 - 경험리스트'의 형식에 따라 아래와 같은 항목들을 포함한다. 
+- `tech skills` : 여러 개의 'tech skill'로 이루어진 객체 배열이다. 하나의 'tech skill'은 PSI에서 제공하는 'tech skill 역량명세서 - 경험리스트'의 항목으로 구성되어야 한다. 따라서 하나의 'tech skill'은 'tech skill 역량명세서 - 경험리스트'의 형식에 따라 아래와 같은 항목들을 포함한다. 
 
 	- `class` : 'tech skill 역량명세서 - 경험리스트' 중 '카테고리'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `experience` : 'tech skill 역량명세서 - 경험리스트' 중 '경험'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `difficulty` : 'tech skill 역량명세서 - 경험리스트' 중 '난이도'에 해당하는 내용을 'string 변수'로 입력한다.
 
-- soft skills : 여러 개의 'soft skill'로 이루어진 객체 배열이다. 하나의 'soft skill'은 PSI에서 제공하는 'soft skill 역량명세서 - 역량별 행동지표'의 항목으로 구성되어야 한다. 따라서 하나의 'soft skill'은 'soft skill 역량명세서 - 역량별 행동지표'의 형식에 따라 아래와 같은 항목들을 포함한다. 
+- `soft skills` : 여러 개의 'soft skill'로 이루어진 객체 배열이다. 하나의 'soft skill'은 PSI에서 제공하는 'soft skill 역량명세서 - 역량별 행동지표'의 항목으로 구성되어야 한다. 따라서 하나의 'soft skill'은 'soft skill 역량명세서 - 역량별 행동지표'의 형식에 따라 아래와 같은 항목들을 포함한다. 
 
 	- `class` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '역량명'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `key word` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '키워드'에 해당하는 내용을 'string 변수'로 입력한다.
@@ -122,7 +189,8 @@
 
 
 ## 2. Mission
-하나의 프로젝트는 여러 개의 미션으로 구성되고, 해당 목차에서는 각 미션에 포함되어야 할 내용들을 기술한다.
+하나의 프로젝트는 여러 개의 미션으로 구성되고, 해당 목차에서는 각 미션에 포함되어야 할 내용들을 기술한다.<br>
+즉 `Mission`에서는 아래의 2.1 ~ 2.8의 항목들을 포함하는 미션 객체의 배열이다. 
 
 ### 2.1 mission id
 | 개수 | 변수형 | 필수 여부 |
@@ -198,16 +266,36 @@
 "result": ["데이터 분석 보고서", "데이터 분석 발표 동영상"]
 ```
 
-
-
-### 2.6 evaluation standard
+### 2.6 evlauation method
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
 | `배열` | `객체` | `필수` |
 
-해당 미션을 모두 수행하고 미션을 평가하는 과정에서 어떤 기준으로 해당 미션을 평가해야할지 서술한다.
-`evaluation standard`는 여러 개의 평가 기준으로 이루어진 하나의 객체이다. 하나의 객체는 `item`, `class`, `type`, `option`으로 구성된다. 
+해당 미션이 평가 방식으로 진행되는지 기입한다.<br>
+하나의 미션은 3가지 평가 방식을 각각 선택적으로 적용할 수 있으며, 각각의 평가 방식은 `boolean`타입으로 기입한다. 
+
+```json
+"evaluation_method":{
+                "auto":true,
+                "online":true,
+                "offline":false
+            }
+```
+
+- `auto` : 자동 평가 방식
+- `online` : 온라인 평가
+- `offline` : 오프라인 평가
+
+
+### 2.7 evaluation standard
+
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `필수` |
+
+해당 미션을 모두 수행하고 미션을 평가하는 과정에서 어떤 기준으로 해당 미션을 평가해야할지 서술한다.<br>
+`evaluation standard`는 여러 개의 평가 기준으로 이루어진 하나의 객체이다. 하나의 객체는 `item`, `class`, `type`, `option`으로 구성된다. <br>
 또한 미션을 평가하는 방법(check box, radio button, 주관식 평가)도 `type`항목을 통해 입력 받는 방법을 선택함으로써 결정할 수 있다. 
 <br>__해당 기준은 미션을 수행하는 학생에게는 공개되지 않으며, 이후에 미션을 평가할 멘토 혹은 동료에게만 공개됨__
 
@@ -251,49 +339,106 @@
 	- `text` : 주관식 평가를 위해 text형식으로 평가를 입력 받을 때 선택한다. 
 - `option` : 만약 `type`에서 `radio` 혹은 `check_box`를 선택했다면, 선택할 수 있는 옵션들을 'string 배열'로 입력한다. 
 
-### 2.7 quiz
+### 2.8 quiz
 
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
-| `배열` | `객체` | `필수` |
+| `배열` | `객체` | `선택` |
+
+학생은 미션을 제출한 후 `quiz`를 수행함으로써 자신들이 미션을 제대로 수행했는지 평가받을 수 있다.<br>
+`quiz`는 객체 배열으로써 하나의 `quiz`객체에는 학생이 '해당 미션을 통해 학습을 제대로 수행했는지'를 확인할 수 있는 질문을 기입한다. <br>
+`quiz`는 미션마다 `optional`하게 들어갈 수 있다. 즉, `quiz`가 있는 미션도 있고 `quiz`가 없는 미션도 존재한다.<br>
+`quiz`는 질문(`question`)과 그 질문이 속해 있는 학습분야(`class`) 그리고 답변(`answer`)으로 구성된다. 
 
 ```json
 "quiz": [{
                     "class": "Data Explore & Preprocess",
-                    "question": "판다스 데이터 프레임을 간단하게 요약해서 보여주며, 주로 데이터 타입을 확인할 때 사용하는 메소드는?",
-                    "answer": "info() (sample(), describe()을 적었을 경우 점수 반만 부여)"
+                    "item": "판다스 데이터 프레임을 간단하게 요약해서 보여주며, 주로 데이터 타입을 확인할 때 사용하는 메소드는?",
+                    "answer": "info() (sample(), describe()을 적었을 경우 점수 반만 부여)",
+		    "type": "text"
                 },
                 {
                     "class": "Data Explore & Preprocess",
-                    "question": "열에 어떤 데이터들이 있는지 확인해 보고 싶을 때 사용하는 메소드는?",
-                    "answer": "set(), unique() (둘중 하나만 적어도 정답)"
+                    "item": "열에 어떤 데이터들이 있는지 확인해 보고 싶을 때 사용하는 메소드는?",
+                    "answer": "set(), unique() (둘중 하나만 적어도 정답)",
+		    "type": "text"
                 },
                 {
                     "class": "Data Analysis",
-                    "question": "판다스 데이터의 개수를 세기 위해서 사용하는 메소드, 예를 들어 no show의 yes와 no의 개수를 세기위해서 어떤 메소드를 사용해야 하는가?",
-                    "answer": "size()"
+                    "item": "판다스 데이터의 개수를 세기 위해서 사용하는 메소드, 예를 들어 no show의 yes와 no의 개수를 세기위해서 어떤 메소드를 사용해야 하는가?",
+                    "answer": "size()",
+		    "type": "text"
                 }
 	]
 ```
-- class
-- question
-- answer
+- `class` : 질문 분야를 기입한다. 즉, `item`문항이 어떤 분야의 지식을 물어보는 것인지 작성한다. 
+- `item` : 질문의 내용을 작성한다.
+- `answer` : 해당 문제에 대한 정답, 학생이 문제를 풀고난 후 학생에게 공개하거나 멘토에게만 공개한다.
+- `type` : 평가자가 해당 미션을 평가하는 방법을 결정한다. 아래의 3가지 옵션 중에 결정하여 `type`에 기입한다. 
+	- `radio` : 여러 개의 옵션 중 하나의 선택지만 선택할 수 있다. 
+	- `check_box` : 여러 개의 옵션 중 다수의 선택지를 고를 수 있다. 
+	- `text` : 주관식 평가를 위해 text형식으로 평가를 입력 받을 때 선택한다. 
+- `option` : 만약 `type`에서 `radio` 혹은 `check_box`를 선택했다면, 선택할 수 있는 옵션들을 'string 배열'로 입력한다. 
 
 ## 3. Reference
+프로젝트 전체적으로 참고할 수 있는 자료들을 작성한다. <br>
+3.1 `answer code link`, 3.2 `data`, 3.3 `resource` 세 개의 항목으로 구성된다.
 
 ### 3.1 answer code link
 
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `string` | `선택` |
+
+프로젝트의 예제 코드 링크가 'string 변수'로 들어간다. 
+
+```json
+"answer_code_link": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb"
+```
+
 ### 3.2 data
 
-- file name
-- explanation
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `선택` |
+
+프로젝트에 사용되는 데이터 파일들이 있다면, 그 데이터 파일들에 대한 설명을 작성한다.<br>
+`data`는 객체 배열이며 각각의 객체는 프로젝트에 사용되는 데이터 파일 하나 하나이다. 
+
+```json
+"data": [{
+            "file_name": "Medical_no_show.csv",
+            "explanation": "브라질 환자들의 병원 예약 정보와 예약 취소 여부에 대한 데이터"
+        }]
+```
+
+- `file name` : 데이터 파일의 이름
+- `explanation` : 해당 데이터 파일에 대한 설명
 
 ### 3.3 resource
 
-- item
-- link
+
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `선택` |
+
+학생들이 프로젝트를 수행하면서 참고할 수 있는 자료들을 기입한다. <br>
+`resource`는 객체 배열으로써 각각의 객체는 하나의 참고자료의 링크와 그에 대한 설명이 들어간다. 
+
+```json
+"resource": [{
+                "item": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
+                "link": "https://en.wikipedia.org/wiki/Convolution_neural_network"
+            },
+            {
+                "item": "scikit-learn 에 대한 일반적인 이해 (위키피디아)",
+                "link": "https://en.wikipedia.org/wiki/Scikit-learn"
+            }
+        ]
+```
+
+- `item` : 참고 자료에 대한 설명
+- `link` : 참고 자료 
 
 
-
-*XMind - Trial Version*
