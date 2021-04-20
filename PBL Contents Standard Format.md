@@ -1,6 +1,73 @@
 # PBL Contents Standard Format
 
-![PBL Contents Standard Format_map](https://user-images.githubusercontent.com/47736525/115193729-83163800-a127-11eb-8903-923be6f22a25.png)
+![PBL Contents Standard Format_operation](https://user-images.githubusercontent.com/47736525/115325399-83194500-a1c6-11eb-8946-bd2d93c5c572.png)
+
+## 0. Operation
+프로젝트의 운영 방식을 결정한다.<br>
+해당 챕터에서 결정해야 할 내용은 다음과 같다.
+- `period` : 학습 기간
+- `progress` : 학습 진행 방식
+- `matching` : 평가자 매칭 방식
+
+### 0.1 period
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `객체` | `필수` |
+
+프로젝트의 시작 시기, 끝나는 시기와 기간에 대한 옵션을 지정한다.
+```json
+"period": {
+            "self_paced":true,
+            "start": 2021050313,
+            "finish": 202105023
+        }
+```
+- `self_paced` : `boolean`변수가 인자로 들어가며 프로젝트가 'self-paced'방식으로 진행되는지 여부를 결정한다. 만약 `false`라면 fixed timeline으로 프로젝트가 진행된다. 
+- `start` : 프로젝트의 예정 시작일 및 예정 시작 시간을 입력한다. 10자리 `int`형 변수이며 '연도(4자리)' + '월(2자리)' + '일(2자리)' + '시간(2자리)'로 구성된다.
+- `finish` : 프로젝트의 예정 종료일 및 예정 종료 시간을 입력한다. 10자리 `int`형 변수이며 '연도(4자리)' + '월(2자리)' + '일(2자리)' + '시간(2자리)'로 구성된다.
+
+### 0.2 progress
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `객체` | `필수` |
+
+프로젝트의 진행 방식을 결정한다. 
+```json
+"progress": {
+            "select": "peer_learning",
+            "option": [
+                "self_learning",
+                "peer_learning",
+                "lecture"
+            ]
+        }
+```
+
+- `option` : 'string 배열'로 가능한 프로젝트 진행 옵션들을 나열한다. 
+- `select` : 가능한 `option`중 해당 프로젝트가 진행 방식으로 선택한 option을 기입한다. 
+
+### 0.3 matching
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `객체` | `필수` |
+
+프로젝트 동료 평가자 방식을 결정한다. 
+```json
+"matching": {
+           "select": "random",
+           "option": [
+               "random",
+               "designate",
+               "select"
+            ]
+
+       }
+    }
+```
+
+- `option` : 'string 배열'로 가능한 프로젝트 진행 옵션들을 나열한다. 
+- `select` : 가능한 `option`중 해당 프로젝트가 동료 평가자 선택 방식으로 선택한 option을 기입한다. 
+
 
 ## 1. Project
 프로젝트 전체적인 내용에 대해 서술한다.
