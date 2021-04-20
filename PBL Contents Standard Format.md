@@ -1,6 +1,6 @@
 # PBL Contents Standard Format
 
-![PBL Contents Standard Format_operation](https://user-images.githubusercontent.com/47736525/115325399-83194500-a1c6-11eb-8946-bd2d93c5c572.png)
+![PBL Contents Standard Format_map](https://user-images.githubusercontent.com/47736525/115327495-05573880-a1ca-11eb-9a70-1868ccd92b5c.png)
 
 ## 0. Operation
 프로젝트의 운영 방식을 결정한다.<br>
@@ -190,7 +190,7 @@
 
 ## 2. Mission
 하나의 프로젝트는 여러 개의 미션으로 구성되고, 해당 목차에서는 각 미션에 포함되어야 할 내용들을 기술한다.<br>
-즉 `Mission`에서는 아래의 2.1 ~ 2.7의 항목들을 포함하는 미션 객체의 배열이다. 
+즉 `Mission`에서는 아래의 2.1 ~ 2.8의 항목들을 포함하는 미션 객체의 배열이다. 
 
 ### 2.1 mission id
 | 개수 | 변수형 | 필수 여부 |
@@ -266,9 +266,29 @@
 "result": ["데이터 분석 보고서", "데이터 분석 발표 동영상"]
 ```
 
+### 2.6 evlauation method
+
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `필수` |
+
+해당 미션이 평가 방식으로 진행되는지 기입한다.<br>
+하나의 미션은 3가지 평가 방식을 각각 선택적으로 적용할 수 있으며, 각각의 평가 방식은 `boolean`타입으로 기입한다. 
+
+```json
+"evaluation_method":{
+                "auto":true,
+                "online":true,
+                "offline":false
+            }
+```
+
+- `auto` : 자동 평가 방식
+- `online` : 온라인 평가
+- `offline` : 오프라인 평가
 
 
-### 2.6 evaluation standard
+### 2.7 evaluation standard
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
@@ -319,7 +339,7 @@
 	- `text` : 주관식 평가를 위해 text형식으로 평가를 입력 받을 때 선택한다. 
 - `option` : 만약 `type`에서 `radio` 혹은 `check_box`를 선택했다면, 선택할 수 있는 옵션들을 'string 배열'로 입력한다. 
 
-### 2.7 quiz
+### 2.8 quiz
 
 
 | 개수 | 변수형 | 필수 여부 |
