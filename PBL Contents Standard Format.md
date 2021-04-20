@@ -113,7 +113,7 @@
 	- `experience` : 'tech skill 역량명세서 - 경험리스트' 중 '경험'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `difficulty` : 'tech skill 역량명세서 - 경험리스트' 중 '난이도'에 해당하는 내용을 'string 변수'로 입력한다.
 
-- soft skills : 여러 개의 'soft skill'로 이루어진 객체 배열이다. 하나의 'soft skill'은 PSI에서 제공하는 'soft skill 역량명세서 - 역량별 행동지표'의 항목으로 구성되어야 한다. 따라서 하나의 'soft skill'은 'soft skill 역량명세서 - 역량별 행동지표'의 형식에 따라 아래와 같은 항목들을 포함한다. 
+- `soft skills` : 여러 개의 'soft skill'로 이루어진 객체 배열이다. 하나의 'soft skill'은 PSI에서 제공하는 'soft skill 역량명세서 - 역량별 행동지표'의 항목으로 구성되어야 한다. 따라서 하나의 'soft skill'은 'soft skill 역량명세서 - 역량별 행동지표'의 형식에 따라 아래와 같은 항목들을 포함한다. 
 
 	- `class` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '역량명'에 해당하는 내용을 'string 변수'로 입력한다.
 	- `key word` : 'soft skill 역량명세서 - 역량별 행동지표' 중 '키워드'에 해당하는 내용을 'string 변수'로 입력한다.
@@ -123,6 +123,7 @@
 
 ## 2. Mission
 하나의 프로젝트는 여러 개의 미션으로 구성되고, 해당 목차에서는 각 미션에 포함되어야 할 내용들을 기술한다.
+즉 `Mission`에서는 아래의 2.1 ~ 2.7의 항목들을 포함하는 미션 객체의 배열이다. 
 
 ### 2.1 mission id
 | 개수 | 변수형 | 필수 여부 |
@@ -294,18 +295,64 @@
 - `option` : 만약 `type`에서 `radio` 혹은 `check_box`를 선택했다면, 선택할 수 있는 옵션들을 'string 배열'로 입력한다. 
 
 ## 3. Reference
+프로젝트 전체적으로 참고할 수 있는 자료들을 작성한다. 
+3.1 `answer code link`, 3.2 `data`, 3.3 `resource` 세 개의 항목으로 구성된다.
 
 ### 3.1 answer code link
 
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `string` | `선택` |
+
+프로젝트의 예제 코드 링크가 'string 변수'로 들어간다. 
+
+```json
+"answer_code_link": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb"
+```
+
 ### 3.2 data
 
-- file name
-- explanation
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `선택` |
+
+프로젝트에 사용되는 데이터 파일들이 있다면, 그 데이터 파일들에 대한 설명을 작성한다.
+`data`는 객체 배열이며 각각의 객체는 프로젝트에 사용되는 데이터 파일 하나 하나이다. 
+
+```json
+"data": [{
+            "file_name": "Medical_no_show.csv",
+            "explanation": "브라질 환자들의 병원 예약 정보와 예약 취소 여부에 대한 데이터"
+        }]
+```
+
+- `file name` : 데이터 파일의 이름
+- `explanation` : 해당 데이터 파일에 대한 설명
 
 ### 3.3 resource
 
-- item
-- link
+
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `선택` |
+
+학생들이 프로젝트를 수행하면서 참고할 수 있는 자료들을 기입한다. 
+`resource`는 객체 배열으로써 각각의 객체는 하나의 참고자료의 링크와 그에 대한 설명이 들어간다. 
+
+```json
+"resource": [{
+                "subject": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
+                "link": "https://en.wikipedia.org/wiki/Convolution_neural_network"
+            },
+            {
+                "subject": "scikit-learn 에 대한 일반적인 이해 (위키피디아)",
+                "link": "https://en.wikipedia.org/wiki/Scikit-learn"
+            }
+        ]
+```
+
+- `item` : 참고 자료에 대한 설명
+- `link` : 참고 자료 
 
 
 
