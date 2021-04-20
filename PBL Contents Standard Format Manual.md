@@ -87,26 +87,20 @@
 
 프로젝트의 이름을 입력한다. 프로젝트 이름은 한 줄 이내의 핵심적인 내용을 담아, 제목만 보고도 프로젝트를 대략적으로 파악할 수 있도록 한다.
 
-### 1.3 levels
+### 1.3 attribute
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
-| `단일` | `객체` | `필수` |
+| `배열` | `string` | `필수` |
 
-프로젝트 level에 대해 입력한다. 
+프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech skill 역량명세서 - 수준 구분'을 참고한다.
 
 ```json
-"levels": {
-            "appropriate level": 2,
-            "detailed levels": ["AI/Data분석/Edu4",
-                "AI/모델개발/Edu4",
-                "AI/AIOps/Edu4"
-            ]
-        }
+"attribute": ["AI/Data분석/Edu4",
+            "AI/모델개발/Edu4",
+            "AI/AIOps/Edu4"
+        ]
 ```
-
-- `appropriate level` : 프로젝트의 적정 레벨을 'int 변수'로 입력한다. `appropriate level`를 통해 학생들은 해당 프로젝트의 난이도를 가늠할 수 있다.
-- `detailed levels` : 프로젝트의 적정 레벨을 <span style="color:red">'string 배열'</span>로 입력한다. `detailed levels`는 PSI에서 제공하는 'tech skill 역량명세서 - 수준 구분'을 참고한다.
 
 
 ### 1.4 objects
@@ -187,25 +181,46 @@
 
 
 
-## 2. Mission
-하나의 프로젝트는 여러 개의 미션으로 구성되고, 해당 목차에서는 각 미션에 포함되어야 할 내용들을 기술한다.<br>
-즉 `Mission`에서는 아래의 2.1 ~ 2.8의 항목들을 포함하는 미션 객체의 배열이다. 
+## 2. Levels
+하나의 프로젝트는 여러 개의 level들로 구성되고, 해당 목차에서는 레벨에 포함되어야 할 항목들을 기술한다. 
 
-### 2.1 mission id
+![PROJECT 설계서-Page-1](https://user-images.githubusercontent.com/47736525/115350937-a953da80-a1f0-11eb-9d09-b08f4a191c72.png)
+즉 `Levels`는 여러개의 레벨로 이루어진 하나의 객체이다.
+
+### 2.1 appropriate_level
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `단일` | `int` | `필수` |
+
+해당 레벨을`int`형 변수로 입력한다. 1 ~ 5까지의 정수만 입력할 수 있다.
+
+```json
+"appropriate_level": 2
+```
+
+### 2.2 missions
+| 개수 | 변수형 | 필수 여부 |
+|:---:|:---:|:----:|
+| `배열` | `객체` | `필수` |
+
+해당 레벨을 구성하는 미션들에 대한 정보를 작성한다.<br>
+`missions`는 여러 개의 미션을 각각의 원소로 하는 객체 배열이다. 
+
+#### 2.2.1 id
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
 | `단일` | `int` | `필수` |
 
 한 프로젝트 안에서 여러 개의 미션을 구분하기 위해 각 미션의 고유 번호를 입력한다.
 
-### 2.2 breifing
+#### 2.2.2 breifing
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
 | `단일` | `string` | `필수` |
 
 미션에서 수행할 내용을 단어나, 문장 단위로 간략하게 기술한다. 
 
-### 2.3 kewords
+#### 2.2.3 kewords
 
 
 | 개수 | 변수형 | 필수 여부 |
@@ -220,40 +235,49 @@
 
 
 
-### 2.4 mission object
+#### 2.2.4 mission object
 
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
 | `배열` | `객체` | `필수` |
 
-미션의 목표와 그 목표를 달성하기 위한 세부 목표를 기술한다.
+1) 미션의 목표, 2) 해당 목표의 분류와 3) 해당 목표가 필수적인지 선택적인지 여부를 기입한다.
 
 ```json
-"mission_objects": {
-                "main_object": [
-                    "Modeling: 현재까지 가공 및 분석한 환자 데이터를 토대로 CNN 모델을 개발하라"
-                ],
-                "detailed_objects": [
-		    {
-                        "detailed_object": "데이터를 2 개 이상의 알고리즘으로 모델링하고 score 를 확인하라.",
+"objects": [{
+                        "class": "Data Store",
+                        "item": "구글드라이브에 환자 진료 데이터를 저장하고 구글 드라이브를 구글 Collaboratory 에서 사용할 있도록 마운트하라",
+                        "optional": false
+                    },
+                    {
+                        "class": "Data Explore & Preprocess",
+                        "item": "주어진 환자 진료 데이터를 분석하기 위해 전처리를 진행하라",
+                        "optional": false
+                    },
+                    {
+                        "class": "Data Analysis",
+                        "item": "전처리를 완료한 환자 데이터를 분석하라",
+                        "optional": false
+                    },
+                    {
+                        "class": "Data Explore & Preprocess",
+                        "item": " 데이터에는 오타가 존재한다. 오타를 고쳐라.",
                         "optional": true
                     },
                     {
-                        "detailed_object": "팀원들 앞에서 사용한 알고리즘을 간단히 설명하고 모델링 결과를 설명하라",
+                        "class": "Data Explore & Preprocess",
+                        "item": "학습을 위한 데이터 타입으로 변환하라. ",
                         "optional": false
                     }
-                ]
-            }
+	]
 ```
 
-- `main objects` : 해당 미션의 가장 핵심적인 목표를 입력한다. 이 때, 핵심 목표를 'string 배열'로 입력하여 핵심 목표가 여러 개인 경우에 대응할 수 있다. 
-- `detailed objects` : 해당 미션의 세부적인 목표를 입력한다.
+- `classs` : 미션의 목표를 포함하는 분류 기준을 입력한다. 
+- `item` : 미션의 목표를 'string 변수'로 입력한다. 
+- `optional` : 입력한 세부 목적이 optional한 것인지 혹은 필수적인 것인지 `boolean` type으로 입력한다. 만약 세부 목적이 'optional'하다면 `true`를 입력한다. 
 
-	- `item` : 세부 목적을 'string 변수'로 입력한다. 
-	- `optional` : 입력한 세부 목적이 optional한 것인지 혹은 필수적인 것인지 `boolean` type으로 입력한다. 만약 세부 목적이 'optional'하다면 `true`를 입력한다. 
-
-### 2.5 result
+#### 2.2.5 result
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
@@ -265,7 +289,7 @@
 "result": ["데이터 분석 보고서", "데이터 분석 발표 동영상"]
 ```
 
-### 2.6 evlauation method
+#### 2.2.6 evlauation method
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
@@ -287,7 +311,7 @@
 - `offline` : 오프라인 평가
 
 
-### 2.7 evaluation standard
+#### 2.2.7 evaluation standard
 
 | 개수 | 변수형 | 필수 여부 |
 |:---:|:---:|:----:|
@@ -338,7 +362,7 @@
 	- `text` : 주관식 평가를 위해 text형식으로 평가를 입력 받을 때 선택한다. 
 - `option` : 만약 `type`에서 `radio` 혹은 `check_box`를 선택했다면, 선택할 수 있는 옵션들을 'string 배열'로 입력한다. 
 
-### 2.8 quiz
+#### 2.2.8 quiz
 
 
 | 개수 | 변수형 | 필수 여부 |
