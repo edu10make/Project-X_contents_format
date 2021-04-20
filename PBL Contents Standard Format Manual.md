@@ -1,5 +1,5 @@
 # PBL Contents Standard Format
-![PBL Contents Standard Format_operation](https://user-images.githubusercontent.com/47736525/115327513-1142fa80-a1ca-11eb-859b-6faf76397807.png)
+![Project](https://user-images.githubusercontent.com/47736525/115352472-5d099a00-a1f2-11eb-92f6-2ba130e36956.png)
 
 
 ## 0. Operation
@@ -184,7 +184,7 @@
 ## 2. Levels
 하나의 프로젝트는 여러 개의 level들로 구성되고, 해당 목차에서는 레벨에 포함되어야 할 항목들을 기술한다. 
 
-![PROJECT 설계서-Page-1](https://user-images.githubusercontent.com/47736525/115350937-a953da80-a1f0-11eb-9d09-b08f4a191c72.png)
+![PROJECT 설계서-Page-1](https://user-images.githubusercontent.com/47736525/115350937-a953da80-a1f0-11eb-9d09-b08f4a191c72.png)<br>
 즉 `Levels`는 여러개의 레벨로 이루어진 하나의 객체이다.
 
 ### 2.1 appropriate_level
