@@ -1,6 +1,6 @@
 # PBL Contents Standard Format
+![PBL Contents Standard Format_operation](https://user-images.githubusercontent.com/47736525/115327513-1142fa80-a1ca-11eb-859b-6faf76397807.png)
 
-![PBL Contents Standard Format_map](https://user-images.githubusercontent.com/47736525/115327495-05573880-a1ca-11eb-9a70-1868ccd92b5c.png)
 
 ## 0. Operation
 프로젝트의 운영 방식을 결정한다.<br>
