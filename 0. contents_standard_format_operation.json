@@ -1,4 +1,33 @@
 {
+    "Operation": {
+        "period": {
+            "self_paced":true,
+            "start": 2021050313,
+            "finish": 202105023
+        },
+
+
+        "progress": {
+            "select": "peer_learning",
+            "option": [
+                "self_learning",
+                "peer_learning",
+                "lecture"
+            ]
+        },
+
+        "matching": {
+            "select": "random",
+            "option": [
+                "random",
+                "designate",
+                "select"
+            ]
+
+        }
+
+    },
+
     "Project": {
         "id": 10000,
         "title": "프로젝트 제목",
@@ -12,7 +41,7 @@
 
         "objects": {
             "main_object": "프로젝트 메인 주제",
-            "detailed_object": ["데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
+            "detailed_objects": ["데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
                 "데이터를 자세하게 분석하고 해당 내용에 대해 설명할 수 있다.",
                 "모델링을 경험해볼 수 있다."
             ]
@@ -93,10 +122,14 @@
                 ]
             },
             "result": ["데이터 분석 보고서", "데이터 분석 발표 동영상"],
+            "evaluation_method":{
+                "auto":true,
+                "online":true,
+                "offline":false
+            },
             "evaluation_standard": [{
                     "item": "구글드라이브에 저장했는가?",
                     "class": "Data Store",
-                    "tag": "input",
                     "type": "radio",
                     "option": [
                         "예",
@@ -226,6 +259,11 @@
                 ]
             },
             "result": ["코드", "모델링 결과 발표 동영상"],
+            "evaluation_method": {
+                "auto": true,
+                "online": true,
+                "offline": false
+            },
             "evaluation_standard": [{
                     "item": "많은 알고리즘으로 모델링할 수록 높은 점수 부여",
                     "class": "Data Modeling"
@@ -256,6 +294,7 @@
             ]
         }
     ],
+
     "Reference": {
         "answer_code_link": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb",
 
