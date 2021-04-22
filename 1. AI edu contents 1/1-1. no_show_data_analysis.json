@@ -3,7 +3,7 @@
     "period": {
       "self_paced": true,
       "start": 2021050313,
-      "finish": 202105023
+      "finish": 2021050231
     },
 
     "progress": {
@@ -208,7 +208,9 @@
   ],
 
   "Reference": {
-    "answer_code_link": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb",
+    "answer_code": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb",
+
+    "evaluation_guide": "link",
 
     "data": [
       {
