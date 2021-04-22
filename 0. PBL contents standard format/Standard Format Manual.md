@@ -125,7 +125,7 @@
       ]
     },
     "skills": {
-      "require": ["python", "numpy", "pandas", "matpolib"],
+      "require": ["python", "numpy", "pandas", "matplotlib"],
       "acquire": ["jupyter_notebook", "TensorFlow", "scikit-learn", "CNN"]
     }
   }
@@ -178,7 +178,7 @@
 | `단일` | `객체` | `필수` |
 
 프로젝트의 목적을 주요 목적과 세부 목적으로 분리하여 입력한다. 
-이 때, 프로젝트의 주요 목적은 프로젝트 전체를 관통하는 포함해야 한다. 
+이 때, 프로젝트의 주요 목적은 프로젝트 전체를 관통하는 내용이 포함되어야 한다. 
 
 ```json
 "objects": {
@@ -202,7 +202,7 @@
 프로젝트를 수행하면 얻을 수 있는 기술을 입력한다. 
 ```json
 "skills": {
-      "require": ["python", "numpy", "pandas", "matpolib"],
+      "require": ["python", "numpy", "pandas", "matplotlib"],
       "acquire": ["jupyter_notebook", "TensorFlow", "scikit-learn", "CNN"]
     }
 ```
