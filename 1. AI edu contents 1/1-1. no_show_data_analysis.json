@@ -3,7 +3,7 @@
     "period": {
       "self_paced": true,
       "start": 2021050313,
-      "finish": 2021050231
+      "finish": 2021071324
     },
 
     "progress": {
@@ -12,8 +12,8 @@
     },
 
     "matching": {
-      "select": "random",
-      "option": ["random", "designate", "select"]
+      "select": "designate",
+      "option": ["request", "commit", "designate"]
     }
   },
 
@@ -128,22 +128,22 @@
           "quiz": [
             {
               "class": "Data Explore & Preprocess",
-              "question": "판다스 데이터 프레임을 간단하게 요약해서 보여주며, 주로 데이터 타입을 확인할 때 사용하는 메소드는?",
+              "item": "판다스 데이터 프레임을 간단하게 요약해서 보여주며, 주로 데이터 타입을 확인할 때 사용하는 메소드는?",
               "answer": "info() (sample(), describe()을 적었을 경우 점수 반만 부여)"
             },
             {
               "class": "Data Explore & Preprocess",
-              "question": "열에 어떤 데이터들이 있는지 확인해 보고 싶을 때 사용하는 메소드는?",
+              "item": "열에 어떤 데이터들이 있는지 확인해 보고 싶을 때 사용하는 메소드는?",
               "answer": "set(), unique() (둘중 하나만 적어도 정답)"
             },
             {
               "class": "Data Analysis",
-              "question": "판다스 데이터의 개수를 세기 위해서 사용하는 메소드, 예를 들어 no show의 yes와 no의 개수를 세기위해서 어떤 메소드를 사용해야 하는가?",
+              "item": "판다스 데이터의 개수를 세기 위해서 사용하는 메소드, 예를 들어 no show의 yes와 no의 개수를 세기위해서 어떤 메소드를 사용해야 하는가?",
               "answer": "size()"
             },
             {
               "class": "Data Analysis",
-              "question": "병원은 쉬는 요일이 있다. 언제인가?",
+              "item": "병원은 쉬는 요일이 있다. 언제인가?",
               "answer": "토요일, 일요일"
             }
           ]
@@ -193,12 +193,12 @@
           "quiz": [
             {
               "class": "Data Modeling",
-              "question": "모델의 학습을 위해 data type 이 object 인 것을 숫자 값으로 변환해주어야 한다. 어떤 메소드를 어떻게 사용해야 하는지 서술하라.",
+              "item": "모델의 학습을 위해 data type 이 object 인 것을 숫자 값으로 변환해주어야 한다. 어떤 메소드를 어떻게 사용해야 하는지 서술하라.",
               "answer": "sklearn 의labelEncoder()와 fit_transform()을 사용하여 범주형 데이터를 정수형 유효값으로 치환한다."
             },
             {
               "class": "Data Modeling",
-              "question": "모델의 정확도를 측정하기 위해 사용하는 메소드는?",
+              "item": "모델의 정확도를 측정하기 위해 사용하는 메소드는?",
               "answer": "score"
             }
           ]
@@ -211,6 +211,8 @@
     "answer_code": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb",
 
     "evaluation_guide": "link",
+
+    "forum": "link",
 
     "data": [
       {
