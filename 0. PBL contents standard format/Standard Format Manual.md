@@ -17,6 +17,25 @@
 
 
 ## 0. Operation
+```json
+"Operation": {
+    "period": {
+      "self_paced": true,
+      "start": 2021050313,
+      "finish": 2021071324
+    },
+
+    "progress": {
+      "select": "peer_learning",
+      "option": ["self_learning", "peer_learning", "lecture"]
+    },
+
+    "matching": {
+      "select": "random",
+      "option": ["random", "designate", "select"]
+    }
+  }
+```
 프로젝트 운영을 위한 전반적인 내용을 결정한다.<br>
 해당 챕터에서 결정해야 할 내용은 다음과 같다.
 - `period` : 학습 기간
@@ -81,7 +100,6 @@
                "designate",
                "consent"
             ]
-
        }
 ```
 
@@ -94,6 +112,26 @@
 
 
 ## 1. Basic
+```json
+"Basic": {
+    "id": 10023,
+    "title": "환자 데이터 분석을 통한 No-Show 예측",
+    "class": ["AI/Data분석/Edu4", "AI/모델개발/Edu4", "AI/AIOps/Edu4"],
+    "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
+    "objects": {
+      "main_object": "텍스트 데이터 분석 및 학습",
+      "detailed_objects": [
+        "데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
+        "데이터를 자세하게 분석하고 해당 내용에 대해 설명할 수 있다.",
+        "모델링을 경험해볼 수 있다."
+      ]
+    },
+    "skills": {
+      "require": ["python", "numpy", "pandas", "matpolib"],
+      "acquire": ["jupyter_notebook", "TensorFlow", "scikit-learn", "CNN"]
+    }
+  }
+```
 프로젝트의 id, 주제, 목적 등 프로젝트의 기본적인 정보에 대해 기입한다.<br>
 또한 '프로젝트'에 대한 정보이기에 특정 Level이나 mission에 국한되는 내용이 아닌, 프로젝트 전반적인 정보를 기입한다는 점에 주의한다. 
 
@@ -392,6 +430,35 @@
 - `answer` : 해당 문제에 대한 정답, 학생이 문제를 풀고난 후 학생에게 공개하거나 멘토에게만 공개한다.
 
 ## 3. Reference
+```json
+"Reference": {
+    "answer_code": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb",
+
+    "evaluation_guide": "link",
+
+    "forum" : "link",
+
+    "data": [{
+        "file_name": "brain.jpg",
+        "explanation": "정상 뇌 사진 100 장, 뇌출혈 뇌 사진 100 장으로 이루어진 이미지 파일"
+      },
+      {
+        "file_name": "labels.csv",
+        "explanation": "뇌출혈 여부 데이터"
+      }
+    ],
+
+    "resource": [{
+        "subject": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
+        "link": "https://en.wikipedia.org/wiki/Convolution_neural_network"
+      },
+      {
+        "subject": "scikit-learn 에 대한 일반적인 이해 (위키피디아)",
+        "link": "https://en.wikipedia.org/wiki/Scikit-learn"
+      }
+    ]
+  }
+```
 프로젝트 전체적으로 참고할 수 있는 자료들을 작성한다. <br>
 3.1 `answer code`, 3.2 `evaluation_guide`, 3.3 `forum` 3.4 `data`, 3.5 `resource` 다섯 가지 항목으로 구성된다.
 
