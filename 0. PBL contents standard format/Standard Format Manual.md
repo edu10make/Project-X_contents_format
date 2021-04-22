@@ -2,6 +2,18 @@
 
 # PBL Contents Standard Format
 ![PBL Contents Standard Format_liner](https://user-images.githubusercontent.com/68315073/115638279-0bc1ed80-a34d-11eb-92a5-1bbae7e88300.png)
+### 읽는 방법
+- 타일에 따른 분류
+	- 직사각형 한 개짜리 타일 : 단일 변수
+	- 직사각형 두 개가 겹쳐진 타일 : 배열
+
+- 색상에 따른 분류
+	- `검정색` : `object`
+	- `빨간색` : `boolean`
+	- `초록색` : `string`
+	- `파란색` : `int`
+
+- 예시 -> '1. Basic - objects - detailed objects[]'는 직사각형 두 개가 겹쳐진 초록색 타일 : '프로젝트의 세부 목적'은 string 배열로 작성
 
 
 ## 0. Operation
