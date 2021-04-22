@@ -1,3 +1,4 @@
+# Format 수정에 따라 매뉴얼도 수정할 예정입니다.
 
 # PBL Contents Standard Format
 ![PBL Contents Standard Format_liner](https://user-images.githubusercontent.com/68315073/115638279-0bc1ed80-a34d-11eb-92a5-1bbae7e88300.png)
