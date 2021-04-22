@@ -1,5 +1,6 @@
 # PBL Contents Standard Format
-![PBL Contents Standard Format_liner](https://user-images.githubusercontent.com/68315073/115676045-2bc3d200-a38a-11eb-99d6-e0e6322bf36e.png)
+![PBL Contents Standard Format_liner](https://user-images.githubusercontent.com/68315073/115686649-62064f00-a394-11eb-80f4-769dd1f406fb.png)
+
 ### 읽는 방법
 - 타일에 따른 분류
 	- 직사각형 한 개짜리 타일 : 단일 변수
@@ -366,7 +367,7 @@
 "objects": [11, 12, 14, 20, 21],
 ```
 
-![image](https://user-images.githubusercontent.com/68315073/115672020-1482e580-a386-11eb-8a80-6c6d36acf576.png)
+![image](https://user-images.githubusercontent.com/68315073/115672020-1482e580-a386-11eb-8a80-6c6d36acf576.png)<>
 예를 들어, 해당 미션을 수행한 학생은 수집된 데이터의 속성을 결정하고 관련 내용을 정리할 수 있으며 수집된 데이터에서 잘못된 데이터를 찾아 수정 삭제할 수 있다.
 
 
