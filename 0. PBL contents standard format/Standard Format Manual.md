@@ -1,5 +1,5 @@
 # PBL Contents Standard Format
-![PBL Contents Standard Format_liner](https://user-images.githubusercontent.com/68315073/115638279-0bc1ed80-a34d-11eb-92a5-1bbae7e88300.png)
+![PBL Contents Standard Format_liner](https://user-images.githubusercontent.com/68315073/115676045-2bc3d200-a38a-11eb-99d6-e0e6322bf36e.png)
 ### 읽는 방법
 - 타일에 따른 분류
 	- 직사각형 한 개짜리 타일 : 단일 변수
