@@ -75,7 +75,7 @@
 프로젝트 동료 평가자 방식을 결정한다. 
 ```json
 "matching": {
-           "select": "random",
+           "select": "request",
            "option": [
                "request",
                "designate",
@@ -90,6 +90,7 @@
 	- request : A가 B에게 평가를 요청하면, B는 A의 평가를 진행 (평가 요청 거절 불가능)
 	- consent : A가 B에게 평가를 요청하면, B가 A의 요청을 수락함으로써 평가 관계가 형성됨 (평가 요청 거절 가능)
 	- designate : 멘토가 판단하여 학생들 간 평가 관계를 지정함
+따라서 해당 프로젝트는 학생끼리의 '요청'방식을 통해서 평가 관계를 형성한다. 
 
 
 ## 1. Basic
