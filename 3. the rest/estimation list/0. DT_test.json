@@ -1,0 +1,72 @@
+{
+    "question": [{
+            "problem_no":3,
+            "problem_index":3,
+            "type1":"PSI",
+            "level":"하",
+            "type2":"PSI",
+            "type3": "PSI",
+            "type4":2,
+            "content":"우리 회사는 명확하고 일관된 DT 전략이 있다.",
+            "type": "radio",
+            "option": [
+                "전혀 그렇지 않다",
+                "그렇지 않은 편이다",
+                "보통이다",
+                "그런 편이다",
+                "매우 그렇다"
+            ],
+            "answer": "",
+            "writer":"PSI",
+            "purpose": ""
+
+        },
+        {
+            "problem_no": 42,
+            "problem_index": 34,
+            "type1": "리터러시",
+            "level": "하",
+            "type2": "interface",
+            "type3": "I-IoT",
+            "type4": 1,
+            "content": "사물인터넷(IoT)는 Internet of Things의 약자이다.",
+            "type": "radio",
+            "option": [
+                "O",
+                "X"
+            ],
+            "answer":[
+                1
+            ],
+            "writer": "최재규",
+            "purpose":""
+
+        },
+        {
+            "problem_no": 49,
+            "problem_index": 41,
+            "type1": "기획역량",
+            "level": "중",
+            "type2": "interface",
+            "type3": "I-웹",
+            "type4": 3,
+            "content": "다음 중 성격이 다른 하나는 무엇인가?",
+            "type": "radio",
+            "option": [
+                "HTML5",
+                "JavaScipt",
+                "CSS",
+                "TCP/IP"
+            ],
+            "answer": [
+                4
+            ],
+            "writer": "최재규",
+            "purpose": ""
+
+
+        }
+      
+    ]
+
+}
