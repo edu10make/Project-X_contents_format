@@ -1,0 +1,322 @@
+{
+  "Operation": {
+    "period": {
+      "self_paced": false,
+      "start": 2021081912,
+      "finish": 2021101212
+    },
+
+    "progress": {
+      "select": "peer_learning",
+      "option": ["self_learning", "peer_learning", "lecture"]
+    },
+
+    "matching": {
+      "select": "designate",
+      "option": ["request", "commit", "designate"]
+    }
+  },
+
+  "Basic": {
+    "id": 10023,
+    "title": "환자 데이터 분석을 통한 No-Show 예측",
+    "class": [
+      "AI/Data분석/Edu4",
+      "AI/모델개발/Edu4",
+      "AI/AIOps/Edu4",
+      "Back-end/Edu4"
+    ],
+    "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
+    "objects": {
+      "main_object": "수도 계량기 숫자 읽어서 웹서버에 실시간 디지탈트윈 기능, 실시간 분석 및 액튜에이션 확장기능 개발",
+      "detailed_objects": ["현장에 설치된 계량기의 이미지 데이터 취득",
+        "계량기 숫자 부분의 이미지 추출",
+        "클라우드 서비스를 이용한 문자 인식",
+        "기반으로 사용할 머신러닝 알고리즘 탐색과 선택",
+        "수천 장 이미지를 갖고 레이블링을 어떻게 할 지 기술적 궁리를 유도",
+        "수천 장 이미지를 적절한 파이썬 툴을 사용하여 하나의 데이터 화일로 구성",
+        "머신러닝 Training 의 양에 대한 판단기준",
+        "확률기반 최종 숫자 판단의 기준 등에 대한 판단기준"
+      ]
+    },
+    "skills": {
+      "require": ["수정 필요"],
+      "acquire": ["수정 필요"]
+    }
+  },
+
+  "Levels": [{
+    "level": 3,
+    "missions": [{
+        "id": 1,
+        "subject": "모니터링 대상 계량기의 미터 이미지 획득단계 구현",
+        "keywords": ["ESP32 cam", "web cam night vision"],
+        "explanation": [
+          "단독으로 작동하는 ESP32 Cam, Raspberry Pi에 USB웹캠을 연결하는 등 여러 옵션들에 대해 검토하고 최선의 방법을 찾는다.",
+          "혹은, http: //bit.ly/websensor1 을 이용해서, 이미지 취득 부분을 스킵하고 먼저 머신러닝부터 시작하는 옵션을 고려한다."
+        ],
+        "result": ["코드"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+          "class": "",
+          "question": "",
+          "answer": ""
+        }]
+      },
+      {
+        "id": 2,
+        "subject": "이미지로부터 인식대상 숫자부분을 추출하라",
+        "keywords": ["Open CV"],
+        "explanation": [
+          "숫자가 표시되는 계량기의 숫자표시부의 image로부터 인식하고자하는 숫자부분의 이미지를 추출한다."
+        ],
+        "result": ["코드"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+            "class": "Data Extracting",
+            "item": "OpenCV 에서 이미지의 XY 좌표체계와 수학시간에 사용하는 X - Y 좌표를 비교해서 설명하라.",
+            "answer": "Y 방향이 아래쪽으로 향한다."
+          },
+          {
+            "class": "Data Extracting",
+            "item": "이미지의 crop 을 위한 좌표는 어떻게 찾아내는가?",
+            "answer": "OpenCV imshow 에서 click 마우스콜백이벤트의 파라미터로 주어지는 x, y 좌표를 프린트하는 프로그램을 간단히 만들 수 있다."
+          },
+          {
+            "class": "Data Extracting",
+            "item": "이미지 edge detection 을 높이기위한 이미지  처리방법들이 각각 어떤 특징이 있는가?",
+            "answer": "블러링의 여러가지 방법"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "subject": "숫자 추출 프로그램 구성",
+        "keywords": ["Open CV", "edge detection", "blur algorithm"],
+        "explanation": [
+          "숫자부분 전체 혹은 숫자 낱자를 추출해내는 프로그램 구성한다.",
+          "5 자리 전체, 혹은 개별 낱자를 추출해서 머신러닝 API 를 사용할 수 있도록 전단계의 작업을 진행한다.",
+          "추출한 이미지의 blur 를 제거한다."
+        ],
+        "result": ["코드"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+          "class": "Data Extracting",
+          "item": "Oblur, medianBlur, bilateralFilter, GaussianBlur들이 각기 어떤 이미지에 대해 효과를 보는지 실험해본 결과는 어떠한가?",
+          "answer": "어떤 노하우를 획득했는지를 평가한다."
+        }]
+      },
+      {
+        "id": 4,
+        "subject": "Google tesseract 를 호출하여 이미지에서 숫자 인식하기",
+        "keywords": ["Google tesseract"],
+        "explanation": [
+          "Google tesseract 를 활용하여 각각의 숫자를 식별한다."
+        ],
+        "result": ["코드"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+          "class": "Data Recognization",
+          "item": "MS Azure 와 Google Cloud 문자인식 서비스에 어떤 차이가 있는가?",
+          "answer": "프로그래밍 편의성 면, 인식의 정확도 면"
+        }]
+      },
+      {
+        "id": 5,
+        "subject": "라벨링을 만들고 파일에서 훈련 데이터 셋을 구축",
+        "keywords": ["MNIST,fasion MNIST"],
+        "explanation": [
+          "미터 사진 이미지를 다운받아 MNIST 를 활용하여 훈련 데이터 셋을 구축한다",
+          "Google TensorFlow Tutorial 의 Fashion MNIST 를 기반으로 사용한다.",
+          "Fashion MNIST 데이터 셋의 형태를 학습한다.",
+          "주어진 데이터 파일에서 한 자릿수를 추출하고 레이블을 생성한다.",
+          "단일 데이터 세트 구축한다."
+        ],
+        "result": ["코드"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+          "class": "",
+          "question": "",
+          "answer": ""
+
+        }]
+      },
+      {
+        "id": 6,
+        "subject": "MNIST 에 데이터 세트 적용",
+        "keywords": ["MNIST,fasion MNIST"],
+        "explanation": [
+          "만들어둔 Data set 을 MNIST 에 적용하라"
+        ],
+        "result": ["코드"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+          "class": "",
+          "question": "",
+          "answer": ""
+
+        }]
+      },
+      {
+        "id": 7,
+        "subject": "Digital Twin Meter 구성",
+        "keywords": ["Digital twin"],
+        "explanation": [
+          "머신러닝으로 인식한 숫자를 웹상에서 다시 digital image 로 표출하여 digital twin meter 를 구성한다.",
+          "마지막으로 저장된 값을 미터(digital twin)에 표시하라",
+          "새 값을 저장하고 미터(digital twin)에 표시하라",
+          "눈으로는 digital 로 표현된 미터 이미지를 볼 수 있고, 인식된 숫자로는 필요한 액션을 할 수 있다.",
+          "slack의 web hook-up으로 미터기 값이 증가할 시 메시지를 푸쉬한다."
+        ],
+        "result": ["코드, digital meter"],
+        "objects": [],
+        "evaluation_method": {
+          "auto": true,
+          "online": true,
+          "offline": false
+        },
+        "evaluation_standard": [{
+          "item": "",
+          "class": "",
+          "tag": "",
+          "type": "",
+          "option": [
+            "",
+            ""
+          ]
+        }],
+        "quiz": [{
+          "class": "",
+          "question": "",
+          "answer": ""
+
+        }]
+      }
+    ]
+  }],
+
+  "Reference": {
+    "answer_code": "https://github.com/edu10make/Project-X_/blob/main/Project1-Medical%20Analysis/001_Medical%20No%20Show/001_Medical%20No%20Show.ipynb",
+
+    "evaluation_guide": "link",
+
+    "forum": "link",
+
+    "data": [{
+      "file_name": "meter_image.zip",
+      "explanation": "2020 년 10 월 25 일 ~ 2020 년 12 월 31 일까지 1 시간 단위로 촬영된 계량기 이미지 6142 장"
+    }, {
+      "file_name": "lavel.csv",
+      "explanation": "meter_image.zip 에 있는 이미지들의 이름과 label 로 붙여진 데이터 셋"
+    },
+    {
+      "file_name": "http://bit.ly/websensor1",
+      "explanation": "수도계량기 이미지획득"
+    },
+    {
+      "file_name": "http://bit.ly/webmeter1",
+      "explanation": "수도계량기 디지탈트윈"
+    }
+  ],
+
+    "resource": [{
+        "subject": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
+        "link": "https://en.wikipedia.org/wiki/Convolution_neural_network"
+      },
+      {
+        "subject": "scikit-learn 에 대한 일반적인 이해 (위키피디아)",
+        "link": "https://en.wikipedia.org/wiki/Scikit-learn"
+      }
+    ]
+  }
+}

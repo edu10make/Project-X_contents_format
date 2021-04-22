@@ -1,17 +1,17 @@
 {
     "question": [{
-            "id": 0,
+            "id": 1,
             "item": "모델의 학습을 위해 data type 이 object 인 것을 숫자 값으로 변환해주어야 한다. 어떤 메소드를 어떻게 사용해야 하는지 모두 선택하라",
             "type": "checkbox",
             "option": [
                 "sklearn의 labelEncoder()",
                 "sklearn의fit_transform()",
-                "TensorFlow의 showEncoder()"
+                "TensorFlow의 showEncoder()",
+                "",
+                ""
+                
             ],
-            "answer": [
-                "sklearn의 labelEncoder()",
-                "sklearn의fit_transform()"
-            ]
+            "answer":  "0,1" 
         }
     ]
 
