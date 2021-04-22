@@ -71,7 +71,7 @@
 프로젝트 동료 평가자 방식을 결정한다. 
 ```json
 "matching": {
-           "select": "0",
+           "select": 0,
            "option": [
                "request",
                "designate",
