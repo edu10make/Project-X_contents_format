@@ -6,13 +6,8 @@
       "finish": 2021101212
     },
 
-    "progress": {
-      "select": "peer_learning",
-      "option": ["self_learning", "peer_learning", "lecture"]
-    },
-
     "matching": {
-      "select": "designate",
+      "select": 1,
       "option": ["request", "commit", "designate"]
     }
   },
@@ -56,6 +51,10 @@
           "혹은, http: //bit.ly/websensor1 을 이용해서, 이미지 취득 부분을 스킵하고 먼저 머신러닝부터 시작하는 옵션을 고려한다."
         ],
         "result": ["코드"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -86,6 +85,10 @@
           "숫자가 표시되는 계량기의 숫자표시부의 image로부터 인식하고자하는 숫자부분의 이미지를 추출한다."
         ],
         "result": ["코드"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -129,6 +132,10 @@
           "추출한 이미지의 blur 를 제거한다."
         ],
         "result": ["코드"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -159,6 +166,10 @@
           "Google tesseract 를 활용하여 각각의 숫자를 식별한다."
         ],
         "result": ["코드"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -193,6 +204,10 @@
           "단일 데이터 세트 구축한다."
         ],
         "result": ["코드"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -224,6 +239,10 @@
           "만들어둔 Data set 을 MNIST 에 적용하라"
         ],
         "result": ["코드"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -259,6 +278,10 @@
           "slack의 web hook-up으로 미터기 값이 증가할 시 메시지를 푸쉬한다."
         ],
         "result": ["코드, digital meter"],
+        "progress": {
+          "select": 0,
+          "option": ["self_learning", "peer_learning", "lecture"]
+        },
         "objects": [],
         "evaluation_method": {
           "auto": true,
@@ -293,21 +316,21 @@
     "forum": "link",
 
     "data": [{
-      "file_name": "meter_image.zip",
-      "explanation": "2020 년 10 월 25 일 ~ 2020 년 12 월 31 일까지 1 시간 단위로 촬영된 계량기 이미지 6142 장"
-    }, {
-      "file_name": "lavel.csv",
-      "explanation": "meter_image.zip 에 있는 이미지들의 이름과 label 로 붙여진 데이터 셋"
-    },
-    {
-      "file_name": "http://bit.ly/websensor1",
-      "explanation": "수도계량기 이미지획득"
-    },
-    {
-      "file_name": "http://bit.ly/webmeter1",
-      "explanation": "수도계량기 디지탈트윈"
-    }
-  ],
+        "file_name": "meter_image.zip",
+        "explanation": "2020 년 10 월 25 일 ~ 2020 년 12 월 31 일까지 1 시간 단위로 촬영된 계량기 이미지 6142 장"
+      }, {
+        "file_name": "lavel.csv",
+        "explanation": "meter_image.zip 에 있는 이미지들의 이름과 label 로 붙여진 데이터 셋"
+      },
+      {
+        "file_name": "http://bit.ly/websensor1",
+        "explanation": "수도계량기 이미지획득"
+      },
+      {
+        "file_name": "http://bit.ly/webmeter1",
+        "explanation": "수도계량기 디지탈트윈"
+      }
+    ],
 
     "resource": [{
         "subject": "Convolution Neural Network(합성곱 신경망)에 대한 일반적인 이해 (위키피디아)",
