@@ -13,7 +13,7 @@
   },
 
   "Basic": {
-    "id": 10023,
+    "id": 10024,
     "title": "CT 이미지 분석 및 뇌출혈 예측",
     "class": ["AI/Data분석/Edu4", "AI/모델개발/Edu4", "AI/AIOps/Edu4"],
     "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
@@ -27,13 +27,20 @@
     },
     "skills": {
       "require": [
-        "python",
-        "numpy",
-        "pandas",
-        "matplotlib",
-        "machine learning"
+        "Fundamentals > Python Programming > Python Basics",
+        "Fundamentals > Python Programming >  Numpy",
+        "Fundamentals > Python Programming > Pandas",
+        "Data Scientist > Visualization >  Matplotlib",
+        "Data Scientist > Visualization >  seaborn",
+        "Machine Learning > General",
+        "Machine Learning > Tools > scikit - learn"
       ],
-      "acquire": ["image classification", "deep learning"]
+      "acquire": [
+        "Deep Learning > Neural Networks",
+        "Deep Learning > Architectures > CNN",
+        "Deep Learning > Tools > Tensorflow",
+        "Deep Learning > Tools > PyTorch"
+      ]
     }
   },
 
@@ -47,7 +54,7 @@
           "image to numpy array",
           "opencv",
           "ImageDataGenerator",
-          "train_test_split"
+          "train_test_split2222"
         ],
         "explanation": [
           "구글드라이브에 환자 진료 데이터를 저장하고 구글 드라이브를 구글 Collaboratory 에서 사용할 있도록 마운트하라.",

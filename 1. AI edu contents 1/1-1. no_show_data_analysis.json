@@ -26,8 +26,23 @@
       ]
     },
     "skills": {
-      "require": ["python", "numpy", "pandas", "matpolib"],
-      "acquire": ["jupyter_notebook", "TensorFlow", "scikit-learn", "CNN"]
+      "require": [
+        "Fundamentals > Python Programming > Python Basics",
+        "Fundamentals > Python Programming >  Numpy",
+        "Fundamentals > Python Programming > Pandas",
+        "Data Scientist > Visualization >  Matplotlib",
+        "Data Scientist > Visualization >  seaborn",
+        "Machine Learning > General",
+        "Machine Learning > Tools > scikit - learn"
+      ],
+      "acquire": [
+        "Data Engineer > Summary of Data Formats",
+        "Data Engineer > Data Discovery",
+        "Data Engineer > Data Integration",
+        "Data Engineer > Data Fusion",
+        "Deep Learning > Tools > Tensorflow",
+        "Deep Learning > Tools > PyTorch"
+      ]
     }
   },
 
