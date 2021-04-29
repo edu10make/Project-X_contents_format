@@ -1,9 +1,6 @@
-# 포맷 시각화
-![2](https://user-images.githubusercontent.com/68315073/116500835-595cce00-a8ea-11eb-9e37-9f00c2674340.png)
-![3](https://user-images.githubusercontent.com/68315073/116500837-59f56480-a8ea-11eb-92e1-1c9ef47d2475.png)
-![4](https://user-images.githubusercontent.com/68315073/116500838-59f56480-a8ea-11eb-870d-35afbce45a73.png)
 
-# 1. Project_Definition : 프로젝트 정의 및 역량
+
+# 1. definition : 프로젝트 정의 및 역량
 ![1](https://user-images.githubusercontent.com/68315073/116500831-58c43780-a8ea-11eb-987b-5eb15fee9290.png)
 - 프로젝트의 id, 주제, 목적 등 프로젝트의 기본적인 정보에 대해 기입합니다.
 - 특정 Level이나 Mission에 국한되는 정보가 아닌 프로젝트 전반적인 정보를 기입합니다.
@@ -23,3 +20,12 @@
 ```
 
 프로젝트의 이름을 입력합니다. 
+
+# 2. description : 프로젝트 기술 문서
+![2](https://user-images.githubusercontent.com/68315073/116500835-595cce00-a8ea-11eb-9e37-9f00c2674340.png)
+
+# 3. learning_resource : 프로젝트 학습 리소스
+![3](https://user-images.githubusercontent.com/68315073/116500837-59f56480-a8ea-11eb-92e1-1c9ef47d2475.png)
+
+# 4. assessment : 프로젝트 평가 요소
+![4](https://user-images.githubusercontent.com/68315073/116500838-59f56480-a8ea-11eb-870d-35afbce45a73.png)
