@@ -1,0 +1,9 @@
+[{
+    "item": "추출한 이미지에서 숫자를 정확하게 인식하였나요?",
+    "class": "Computer Vision",
+    "type": "radio",
+    "option": [
+        "예",
+        "아니오"
+    ]
+}]

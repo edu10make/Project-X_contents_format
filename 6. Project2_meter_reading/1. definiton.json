@@ -1,0 +1,39 @@
+{
+    "id": 10025,
+    "title": "미터기 읽기",
+    "estimated_time":50,
+    "class": [
+        "AI/Data분석/Edu4",
+        "AI/모델개발/Edu4",
+        "AI/AIOps/Edu4",
+        "Back-end/Edu4"
+    ],
+    "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
+    "objects": {
+        "main_object": "수도 계량기의 숫자를 읽어서 웹서버에 보여주는 digital twin기능을 구현하라, 실시간 분석 및 액튜에이션 확장기능 개발",
+        "detailed_objects": ["현장에 설치된 계량기의 이미지 데이터를 취득하라",
+            "계량기 숫자 부분의 이미지 추출하라",
+            "클라우드 서비스를 이용하여 추출한 이미지에서 문자를 인식하라",
+            "머신러닝 알고리즘을 탐색하여 기반으로 사용할 알고리즘을 선택하라",
+            "수천 장 이미지를 갖고 각각의 사진에 레이블링을 어떻게 할 지 기술적으로 궁리하라",
+            "파이썬 툴을 사용하여 수천 장 이미지를 적절한 하나의 데이터 화일로 구성하라",
+            "몇 장의 표본에 대해 머신러닝 Training을 진행할지에 대한 판단기준 세워라",
+            "인식한 숫자를 웹서버에 표기하는 digital twin meter를 구현하라"
+        ]
+    },
+    "skills": {
+        "require": [
+            "Fundamentals > Python Programming > Python Basics",
+            "Fundamentals > Python Programming >  Numpy",
+            "Fundamentals > Python Programming > Pandas"
+        ],
+        "acquire": [
+            "Deep Learning > Neural Networks > Activation Functions",
+            "Deep Learning > Neural Networks > Understanding Nerual Networks",
+            "Deep Learning > Architectures > CNN",
+            "Deep Learning > Traning > Optimizers",
+            "Deep Learning > Tools > TenosorFlow"
+        ]
+    }
+}
+

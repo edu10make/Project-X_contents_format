@@ -1,0 +1,47 @@
+[
+    {
+        "item": "image를 웹센서에서 문제 없이 load했나요?",
+        "class": "Data Extracting",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "Open CV 라이브러리를 활용하여 이미지를 적절하게 회전하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    }, {
+        "item": "Open CV 라이브러리를 활용하여 이미지의 기하학적 변형을 수행하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "변형한 이미지에서 미터 부분을 추출하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "이미지 변형 각 단계에서 적절한 label을 부착하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    }
+]
+

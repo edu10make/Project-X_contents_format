@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "subject": "실시간 미터 이미지 취득 시스템 구축",
+        "keywords": ["ESP32 cam", "web cam night vision"],
+        "explanation": [
+            "라즈베리파이를 수도계량기 바로옆에 설치하고 카메라를 부착하여 수도 계량기의 이미지를 저장한다.",
+            "Edge Computing과 같은 구성으로 시스템을 구성하는 방법, 카메라로 취득된 이미지를 클라우드 서버로 보내는 방법 또는 클라우드 서버에서 카메라 이미지를 원격으로 취득하는 방법 중에서 고려한다.",
+            "빛이 없는 지하실에 설치된 수도메터를 읽어야 하는 상황들이 있다."
+        ],
+        "result": ["실시간 미터 취득 시스템"],
+        "objects": [1, 2]
+    },
+    {
+        "id": 2,
+        "subject": "숫자 추출하기1",
+        "keywords": ["Open CV", "Affine", "PerspectiveTransform"],
+        "explanation": [
+            "먼저, 이미지를 회전시키고 왜곡을 보정하는 등의 과정을 거친다.",
+            "수정한 이미지에서 미터 값이 변화하는 부분을 잘라낸다."
+        ],
+        "objects": [3, 4, 16, 18, 41, 87],
+        "result": ["코드"],
+        "quiz": [
+            {
+                "class": "Data Extracting",
+                "item": "OpenCV 에서 이미지의 XY 좌표체계와 수학시간에 사용하는 X - Y 좌표를 비교해서 설명하라.",
+                "answer": "Y 방향이 아래쪽으로 향한다."
+            },
+            {
+                "class": "Data Extracting",
+                "item": "이미지의 crop 을 위한 좌표는 어떻게 찾아내는가?",
+                "answer": "OpenCV imshow 에서 click 마우스콜백이벤트의 파라미터로 주어지는 x, y 좌표를 프린트하는 프로그램을 간단히 만들 수 있다."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "subject": "숫자 추출하기2",
+        "keywords": ["Open CV", "edge detection", "blur algorithm", "threshold", "contour"],
+        "explanation": [
+            "잘라낸 미터 측정 부분에서 Open CV의 여러가지 blur 메소드를 활용하여 노이즈를 제거한다.",
+            "이미지의 임계처리를 완료하고 이미지의 윤곽선을 딴다.",
+            "얻어낸 이미지 윤곽선에서 Convex Hull을 얻어낸다.",
+            "결과적으로 개별 낱자를 추출한다."
+        ],
+        "result": ["코드"],
+        "objects": [27, 107],
+        "quiz": [
+            {
+                "class": "Computer Vision",
+                "item": "이미지 Contour가 무엇인가요?",
+                "answer": "이미지 Contour란 동일한 색 또는 동일한 색상 강도를 가진 부분의 가장 자리 경계를 연결한 선입니다"
+            },
+            {
+                "class": "Computer Vision",
+                "item": "보다 정확한 이미지 Contour를 확보하기 위해 어떤 방법을 사용해야 하나요?",
+                "answer": "바이너리 이미지를 사용해야 한다. 따라서 이미지 Contour를 찾기 전에 threshold를 사용해야 한다."
+            },
+            {
+                "class": "Computer Vision",
+                "item": "Convuex Hull(블록체)과 Contour의 차이점은 무엇인가?",
+                "answer": "Contour는 윤곽선으로써 모든 테두리를 잇는 선이지만, Convux Hull은 Contour의 오목한 부분을 모두 체크하고 이를 보정하는 역할을 한다. 즉 오목한 부분이 전혀 없는 선이다."
+            },
+            {
+                "class": "Computer Vision",
+                "item": "Oblur, medianBlur, bilateralFilter, GaussianBlur들이 각기 어떤 이미지에 대해 효과를 보는지 실험해본 결과는 어떠한가?",
+                "answer": "어떤 노하우를 획득했는지를 평가한다."
+            },
+            {
+                "class": "Computer Vision",
+                "item": "Mean, Gaussian 등 다양한 이미지 threshold 메소드의 차이점은 어떠한가?",
+                "answer": "어떤 노하우를 획득했는지를 평가한다."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "subject": "Google tesseract를 통해 숫자 인식하기",
+        "keywords": ["Google tesseract"],
+        "explanation": [
+            "Google tesseract를 사용하여 추출한 숫자 이미지에서 숫자를 인식한다.",
+            "이 전 미션들에서 이미지 처리를 잘 해두었다면, Google tesseract에 처리된 이미지를 집어넣는 것만으로도 미션을 해결할 수 있다.",
+            "각 이미지에서 숫자를 인식하여 추후에 라벨링할 수 있도록 저장한다.",
+            "만약 숫자 인식이 제대로 되지 않았다면, 이 전 미션을 보완한다."
+        ],
+        "result": ["코드"],
+        "objects": [27, 86, 88, 138],
+        "quiz": [{
+            "class": "Computer Vision",
+            "item": "MS Azure 와 Google Cloud 문자인식 서비스에 어떤 차이가 있는가?",
+            "answer": "프로그래밍 편의성 면, 인식의 정확도 면"
+        }]
+    },
+    {
+        "id": 5,
+        "subject": "수도계량기 숫자인식 머신러닝을 위한 데이타 분류",
+        "keywords": ["data labeling"],
+        "explanation": [
+            "이전까지의 미션에서는 개별 숫자 이미지를 crop을 통해 얻을 수 있었고, Google tesseract를 통해 개별 숫자 이미지를 인식할 수 있었다",
+            "그 결과 모든 이미지들에 대해서 개별 낱자를 crop할 수 있었고, 개별 낱자들을 인식하여 labeling을 붙임으로써 dataset을 구성할 수 있게 되었다.",
+            "그렇다면 개별 낱자 이미지들과 label로 이루어진 data set을 training data set과 test data set으로 분류하라",
+            "또한 그 과정에서 결측치가 발견된다면 제거하라"
+        ],
+        "result": ["코드"],
+        "objects": [34, 89]
+    },
+    {
+        "id": 6,
+        "subject": "숫자 예측 모델 개발하기",
+        "keywords": ["MNIST", "Fashion MNIST", "TesorFlow"],
+        "explanation": ["Traning Data Set을 활용하여 개별 이미지에서 숫자를 분석할 수 있는 모델을 만든다.",
+            "모델을 만든 후 테스트 이미지로 loss와 accruracy를 측정한다.",
+            "또한 훈련된 모델을 사용하여 이미지에 대한 예측 모델을 만들고 예측 결과를 시각화한다"
+        ],
+        "result": ["코드", "예측 모델"],
+        "objects": [90, 91, 92, 99]
+    },
+    {
+        "id": 7,
+        "subject": "Digital Twin Meter 구성",
+        "keywords": ["slack web hookup, flask"],
+        "explanation": [
+            "머신러닝으로 인식한 숫자를 웹상에서 실시간으로 볼 수 있는 digital twin meter를 구성한다.",
+            "Digital twin meter를 통해 눈으로는 digital 로 표현된 미터 이미지를 볼 수 있고, 인식된 숫자는 새로운 작업에 활용될 수 있다.",
+            "slack의 web hook-up을 통해 실제 미터기 값이 증가할 시 메시지를 푸쉬한다."
+        ],
+        "result": ["코드, digital twin meter"],
+        "objects": [15, 27]
+    }
+]
