@@ -1,0 +1,19 @@
+[{
+        "item": "데이터 분류 과정에서 발견된 결측치를 제거하였는가?",
+        "class": "Data classification",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "훈련 데이터 셋과 테스트 데이터 셋을 적절한 비율로 분류하였는가?",
+        "class": "Data classification",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[{
+        "item": "모델의 정확도가 95% 이상인가?",
+        "class": "Modeling",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "예측 결과를 시각화 하였는가?",
+        "class": "Modeling",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    }
+]
