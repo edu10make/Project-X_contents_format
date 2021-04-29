@@ -1,0 +1,31 @@
+{
+    "id": 10024,
+    "title": "CT 이미지 분석 및 뇌출혈 예측",
+    "class": ["AI/Data분석/Edu4", "AI/모델개발/Edu4", "AI/AIOps/Edu4"],
+    "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
+    "objects": {
+        "main_object": "이미지 데이터 분석 및 학습",
+        "detailed_objects": [
+            "데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
+            "데이터를 자세하게 분석하고 해당 내용에 대해 설명할 수 있다.",
+            "모델링 과정을 통해 CNN 을 경험할 수 있다."
+        ]
+    },
+    "skills": {
+        "require": [
+            "Fundamentals > Python Programming > Python Basics",
+            "Fundamentals > Python Programming >  Numpy",
+            "Fundamentals > Python Programming > Pandas",
+            "Data Scientist > Visualization >  Matplotlib",
+            "Data Scientist > Visualization >  seaborn",
+            "Machine Learning > General",
+            "Machine Learning > Tools > scikit - learn"
+        ],
+        "acquire": [
+            "Deep Learning > Neural Networks",
+            "Deep Learning > Architectures > CNN",
+            "Deep Learning > Tools > Tensorflow",
+            "Deep Learning > Tools > PyTorch"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "subject": "환자 데이터 분석",
+        "keywords": [
+            "NumPy",
+            "Pandas",
+            "matplotlib",
+            "seaborn",
+            "data_analysis"
+        ],
+        "explanation": [
+            "환자 데이터를 읽어오고 데이터를 전처리한다.",
+            "이 때, 데이터에 존재하는 오타를 수정하고 데이터를 학습을 위한 데이터 타입으로 변환한다.",
+            "필요하다면 학습을 위해 새로운 데이터를 생성해도 된다.",
+            "이 후 데이터들을 분석 분석한 내용을 토대로 보고서를 작성하고 데이터 분석에 관한 발표 동영상을 만들어라"
+        ],
+        "objects": [11, 12, 14, 20, 21],
+        "result": ["코드", "데이터 분석 보고서", "데이터 분석 발표 동영상"],
+        "quiz": [{
+                "class": "Data Explore & Preprocess",
+                "item": "판다스 데이터 프레임을 간단하게 요약해서 보여주며, 주로 데이터 타입을 확인할 때 사용하는 메소드는?",
+                "answer": "info() (sample(), describe()을 적었을 경우 점수 반만 부여)"
+            },
+            {
+                "class": "Data Explore & Preprocess",
+                "item": "열에 어떤 데이터들이 있는지 확인해 보고 싶을 때 사용하는 메소드는?",
+                "answer": "set(), unique() (둘중 하나만 적어도 정답)"
+            },
+            {
+                "class": "Data Analysis",
+                "item": "판다스 데이터의 개수를 세기 위해서 사용하는 메소드, 예를 들어 no show의 yes와 no의 개수를 세기위해서 어떤 메소드를 사용해야 하는가?",
+                "answer": "size()"
+            },
+            {
+                "class": "Data Analysis",
+                "item": "병원은 쉬는 요일이 있다. 언제인가?",
+                "answer": "토요일, 일요일"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "subject": "No Show 예측 모델 개발",
+        "keywords": [
+            "Decision Tree Classifier",
+            "Random Forest Classfier",
+            "Grid Search CV",
+            "Bayes Classifier",
+            "XGBoost, Logistic Regression"
+        ],
+        "explanation": [
+            "현재까지 가공 및 분석한 환자 데이터를 토대로 CNN 모델을 개발한다.",
+            "이 때, 데이터를 2 개 이상의 알고리즘으로 모델링하고 score 를 확인하라",
+            "또한 팀원들 앞에서 사용한 알고리즘을 간단히 설명하고 모델링 결과를 설명하라"
+        ],
+        "objects": [23, 151],
+        "quiz": [
+            {
+                "class": "Data Extracting",
+                "item": "OpenCV 에서 이미지의 XY 좌표체계와 수학시간에 사용하는 X - Y 좌표를 비교해서 설명하라.",
+                "answer": "Y 방향이 아래쪽으로 향한다."
+            },
+            {
+                "class": "Data Extracting",
+                "item": "이미지의 crop 을 위한 좌표는 어떻게 찾아내는가?",
+                "answer": "OpenCV imshow 에서 click 마우스콜백이벤트의 파라미터로 주어지는 x, y 좌표를 프린트하는 프로그램을 간단히 만들 수 있다."
+            }
+        ]
+    }
+]

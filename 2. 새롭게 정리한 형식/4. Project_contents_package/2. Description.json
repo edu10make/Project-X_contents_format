@@ -1,0 +1,19 @@
+[
+    {
+        "id": 0,
+        "subject": "",
+        "keywords": [""],
+        "explanation": [
+            ""
+        ],
+        "objects": [0],
+        "result": [""],
+        "quiz": [
+            {
+                "class": "",
+                "item": "",
+                "answer": ""
+            }
+        ]
+    }
+]

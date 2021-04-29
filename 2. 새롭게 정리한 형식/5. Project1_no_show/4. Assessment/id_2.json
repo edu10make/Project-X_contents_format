@@ -1,0 +1,19 @@
+[{
+        "item": "데이터를 2개 이상의 알고리즘으로 모델링하였는가?",
+        "class": "Data Modeling",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "모델의 score가 높은가?",
+        "class": "Data Modeling",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "발표에서 알고리즘에 대해 잘 설명하였는가?",
+        "class": "Data Modeling",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    }
+]

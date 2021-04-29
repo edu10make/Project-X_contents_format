@@ -1,0 +1,61 @@
+[{
+        "item": "구글드라이브에 저장했는가?",
+        "class": "Data Store",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "try except의 사용으로 데이터 엑세스 에러에 대처했는가?",
+        "class": "Data Store",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "오타를 고쳤는가?",
+        "class": "Data Explore & Preprocess",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "학습에 필요없는 데이터를 삭제했는가?",
+        "class": "Data Explore & Preprocess",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "데이터 타입을 변환했는가?",
+        "class": "Data Explore & Preprocess",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "데이터 에러를 확인하려는 노력을 했는가? (검출하지 못했어도 다양하게 노력한것으로만 점수 부여)",
+        "class": "Data Explore & Preprocess",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "새로운 데이터를 생성했는가? (높은 점수 부여)",
+        "class": "Data Explore & Preprocess",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "많은 데이터를 분석하였는가? (많은 데이터를 분석할 수록 높은 점수 부여)",
+        "class": "Data Analysis",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "보고서를 잘 작성하였는가?",
+        "class": "Data Analysis",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "발표를 잘 진행하였는가?",
+        "class": "Data Analysis",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    }
+]
