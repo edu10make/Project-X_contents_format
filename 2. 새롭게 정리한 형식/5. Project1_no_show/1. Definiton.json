@@ -1,0 +1,34 @@
+{
+    "id": 10023,
+    "title": "환자 데이터 분석을 통한 No-Show 예측",
+    "estimated_time": 15,
+    "class": ["AI/Data분석/Edu4", "AI/모델개발/Edu4", "AI/AIOps/Edu4"],
+    "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
+    "objects": {
+        "main_object": "텍스트 데이터 분석 및 학습",
+        "detailed_objects": [
+            "데이터 저장 및 준비 등 데이터 전처리 과정을 경험할 수 있다.",
+            "데이터를 자세하게 분석하고 해당 내용에 대해 설명할 수 있다.",
+            "모델링을 경험해볼 수 있다."
+        ]
+    },
+    "skills": {
+        "require": [
+            "Fundamentals > Python Programming > Python Basics",
+            "Fundamentals > Python Programming >  Numpy",
+            "Fundamentals > Python Programming > Pandas",
+            "Data Scientist > Visualization >  Matplotlib",
+            "Data Scientist > Visualization >  seaborn",
+            "Machine Learning > General",
+            "Machine Learning > Tools > scikit - learn"
+        ],
+        "acquire": [
+            "Data Engineer > Summary of Data Formats",
+            "Data Engineer > Data Discovery",
+            "Data Engineer > Data Integration",
+            "Data Engineer > Data Fusion",
+            "Deep Learning > Tools > Tensorflow",
+            "Deep Learning > Tools > PyTorch"
+        ]
+    }
+}

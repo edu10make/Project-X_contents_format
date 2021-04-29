@@ -1,0 +1,23 @@
+{
+    "id": 0,
+    "title": "",
+    "estimated_time":0,
+    "class": [
+        ""
+    ],
+    "story": "https://example.com/",
+    "objects": {
+        "main_object": "",
+        "detailed_objects": [""
+        ]
+    },
+    "skills": {
+        "require": [
+            ""
+        ],
+        "acquire": [
+            ""
+        ]
+    }
+}
+

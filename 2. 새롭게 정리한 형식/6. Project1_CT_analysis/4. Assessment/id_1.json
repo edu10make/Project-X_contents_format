@@ -1,0 +1,43 @@
+[{
+        "item": "구글드라이브에 환자 진료 데이터를 저장하고 구글 드라이브를 구글 Collaboratory 에서 사용할 있도록 마운트했는가?",
+        "class": "Data Store",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "try except의 사용으로 데이터 엑세스 에러에 대처했는가?",
+        "class": "Data Store",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "그래프를 많이 만들었는가?",
+        "class": "Data Analysis",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "이미지는 128, 128 크기로 저장했는가? ",
+        "class": "Data Store",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "데이터를 train, validation, test 로 나누었는가? (train_test_split 을 사용하지 않았어도 감점 요소가 아님)",
+        "class": "Data Split",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "ImageDateGenerator 를 사용하였는가?",
+        "class": "Image Data Generator",
+        "type": "radio",
+        "option": ["예", "아니오"]
+    },
+    {
+        "item": "발표 점수",
+        "class": "Image Data Generator",
+        "type": "radio",
+        "option": [5, 4, 3, 2, 1]
+    }
+]
