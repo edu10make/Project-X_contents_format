@@ -1,0 +1,9 @@
+{
+    "item": "'http://bit.ly/websensor1'와 같은 미터 이미지 취득 시스템을 구축하였나요?",
+    "class": "Data Store",
+    "type": "radio",
+    "option": [
+        "예",
+        "아니오"
+    ]
+}

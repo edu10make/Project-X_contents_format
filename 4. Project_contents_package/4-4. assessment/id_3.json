@@ -1,0 +1,46 @@
+[{
+        "item": "Open CV의 threshold 라이브러리를 활용하여 이미지 임계처리를 적절하게 완료하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "보다 정확한 이미지 Contour(윤곽선)를 위해 binary이미지를 사용하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "각 미터 숫자의 윤곽선을 통해 Convex Hull을 얻었나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "윤곽선을 통해 Convex Hull을 얻을 때, 수평으로 overlapping되는 문제를 해결하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    },
+    {
+        "item": "계량기의 5자리 숫자를 모두 인식하지 못했을 때, 예외처리를 진행하였나요?",
+        "class": "Computer Vision",
+        "type": "radio",
+        "option": [
+            "예",
+            "아니오"
+        ]
+    }
+]
