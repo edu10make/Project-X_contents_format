@@ -28,7 +28,7 @@
 **하단에 작성될 설명서에 포함되는 이미지와 .json형식은 "project_2 : 계량기 읽기"를 예시로 하여 작성되었습니다.**<br>
 
 
-# 1. definition : 프로젝트 정의 및 역량
+# 1. Definition : 프로젝트 정의 및 역량
 ![슬라이드1](https://user-images.githubusercontent.com/68315073/116506676-b19acc80-a8f8-11eb-9339-092d257d9f21.PNG)
 - 프로젝트의 id, 주제, 목적 등 프로젝트의 기본적인 정보에 대해 기입합니다.
 - 특정 Level이나 Mission에 국한되는 정보가 아닌 프로젝트 전반적인 정보를 기입합니다.
@@ -115,7 +115,7 @@
 - `acqure`에는 프로젝트를 수행하고 나면 얻을 수 있는 역량입니다. 이 프로젝트를 통해 달성할 수 있는 학습 성과들을 기입합니다.
 
 <br><br>
-# 2. description : 프로젝트 기술 문서
+# 2. Description : 프로젝트 기술 문서
 ![슬라이드2](https://user-images.githubusercontent.com/68315073/116506685-b5c6ea00-a8f8-11eb-951a-3cd795057bfd.PNG)
 - 하나의 프로젝트는 여러 개의 미션들로 구성됩니다.
 - 프로젝트 기술 문서에서는 프로젝트를 구성하는 미션들과 미션들에 포함되어야 하는 내용을 기술합니다.
@@ -194,7 +194,7 @@
 	- `item` : 질문 문항입니다.
 	- `answer` : 질문에 대한 정답입니다. 
 <br><br>
-# 3. learning_resource : 프로젝트 학습 리소스
+# 3. Learning_Resource : 프로젝트 학습 리소스
 ![슬라이드3](https://user-images.githubusercontent.com/68315073/116506694-b8c1da80-a8f8-11eb-9aee-8a8563d0add1.PNG)
 - **프로젝트를 수행할 때 필요한 학습 리소스**나 **프로젝트를 통해 배워야 하는 지식과 기술을 습득할 수 있는 리소스**들을 기술한 파일입니다.
 - 이 파일은 Project-X LMS가 읽어 각 단위 프로젝트 마다 **학습 포럼**을 자동으로 구성합니다.
@@ -217,7 +217,7 @@
 
 
 <br><br>
-# 4. assessment : 프로젝트 평가 요소
+# 4. Assessment : 프로젝트 평가 요소
 ![슬라이드4](https://user-images.githubusercontent.com/68315073/116506696-bb243480-a8f8-11eb-8622-765469590e38.PNG)
 - project_assessment는 하나의 폴더입니다. 
 - project_assessment에는 학생들이 이 프로젝트의 전체 또는 일부를 완료한 것에 대하여 평가 방법을 정의한 파일들이 포함됩니다. 
