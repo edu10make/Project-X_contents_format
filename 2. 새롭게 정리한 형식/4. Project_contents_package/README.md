@@ -222,7 +222,7 @@
 <br><br>
 # 4. Assessment : 프로젝트 평가 요소
 ![슬라이드4](https://user-images.githubusercontent.com/68315073/116506696-bb243480-a8f8-11eb-8622-765469590e38.PNG)
-**해당 는...**<br>
+**해당 폴더는...**<br>
 - project_assessment는 하나의 폴더입니다. 
 - project_assessment에는 학생들이 이 프로젝트의 전체 또는 일부를 완료한 것에 대하여 평가 방법을 정의한 파일들이 포함됩니다. 
 - 즉, project_assessment에는 각 미션에 대응하는 평가 방법들이 json 포맷으로 저장되어 있습니다. 
