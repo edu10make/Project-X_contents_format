@@ -204,8 +204,8 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
             30100,
 	    30102,
             30200,
-            "Deep Learning > Traning > Optimizers",
-            "Deep Learning > Tools > TenosorFlow"
+            30300,
+            30402
         ]
     }
 ```
