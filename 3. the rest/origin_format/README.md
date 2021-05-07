@@ -15,5 +15,3 @@ PBL 콘텐츠 표준 포맷과 매뉴얼이 포함된 폴더
 - PBL콘텐츠 표준 포맷에 맞춰 작성된 project2 json파일 
 - 학습에 사용된 souce
 - 학습에 필요한 data
-
-### 3. the rest
