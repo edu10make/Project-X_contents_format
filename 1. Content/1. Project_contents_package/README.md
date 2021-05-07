@@ -1,6 +1,6 @@
 # 콘텐츠 표준 포맷 명세서
 ### 용어 설명
-![Untitled Diag11ram](https://user-images.githubusercontent.com/68315073/117391265-8fbdcd00-af2a-11eb-9565-cf38b6fda54b.png)</
+![Untitled Diag11ram](https://user-images.githubusercontent.com/68315073/117391265-8fbdcd00-af2a-11eb-9565-cf38b6fda54b.png)</br>
 `콘텐츠` : 학생들의 학습 진행을 위해 개발된 학습 자료를 의미합니다. 
 `프로젝트` : 콘텐츠 표준 포맷에 맞춰 정형화된 콘텐츠를 의미합니다. 하나의 프로젝트는 N개의 미션으로 구성됩니다.
 `미션` : 프로젝트를 구성하는 단위입니다. 프로젝트를 진행하는 학생은 프로젝트를 구성하는 N개의 미션을 모두 해결함으로써 프로젝트를 완수할 수 있습니다. 
