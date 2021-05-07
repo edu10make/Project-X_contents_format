@@ -54,69 +54,69 @@
 
 ## Machine Learning
 
-|구분|역량|
-|--|--|
-|General|Concepts|
-|General|Cost function and gradient descent|
-|General|Overfitting / Underfitting|
-|General|Training, validation, and test data|
-|General|Precision vs Recall|
-|General|Bias & Variance|
-|General|Lift|
-|Methods|Regression|
-|Methods|Classification|
-|Methods|Clustering|
-|Methods|Ensemble Learning|
-|Methods|Reinforce Learning|
-|Use Cases|Sentiment Analysis|
-|Use Cases|Collaborative Filtering|
-|Use Cases|Tagging|
-|Use Cases|Prediction|
-|Tools|scikit-learn|
-|Tools|spacy(NLP)|
+|구분|id|역량|
+|--|--|--|
+|General|20000|Concepts|
+|General|20001|Cost function and gradient descent|
+|General|20002|Overfitting / Underfitting|
+|General|20003|Training, validation, and test data|
+|General|20004|Precision vs Recall|
+|General|20005|Bias & Variance|
+|General|20006|Lift|
+|Methods|20100|Regression|
+|Methods|20101|Classification|
+|Methods|20102|Clustering|
+|Methods|20103|Ensemble Learning|
+|Methods|20104|Reinforce Learning|
+|Use Cases|20200|Sentiment Analysis|
+|Use Cases|20201|Collaborative Filtering|
+|Use Cases|20202|Tagging|
+|Use Cases|20203|Prediction|
+|Tools|20300|scikit-learn|
+|Tools|20301|spacy(NLP)|
 
 ## Deep Learning
-|구분|역량|
-|--|--|
-|papers|papers with code|
-|Neural Networks|Understanding Neural Networks|
-|Neural Networks|Loss Function|
-|Neural Networks|Activation Function|
-|Neural Networks|Weight Initialization|
-|Neural Networks|Gradient Problem|
-|Architectures|CNN| 
-|Architectures|RNN|
-|Architectures|Transformer|
-|Architectures|Siamese Network|
-|Architectures|GAN|
-|Architectures|Evolving Architectures|
-|Architectures|Residual Connections|
-|Training|Optimazation|
-|Training|Learning Rate Schedule|
-|Training|Batch Normalization|
-|Training|Batch Size Effects|
-|Training|Regularization|
-|Training|Multitask Learning|
-|Training|Transfer Learning|
-|Tools|Awesome Deep Learning|
-|Tools|Huggingface Transformers|
-|Tools|TensorFlow|
-|Tools|PyTorch|
-|Tools|Tensorboard|
-|Tools|MLFlow|
-|Model Optimization|Distillation|
-|Model Optimization|Quantization|
-|Model Optimization|Neural Architecture Search|
+|구분|id|역량|
+|--|--|--|
+|papers|30000|papers with code|
+|Neural Networks|30100|Understanding Neural Networks|
+|Neural Networks|30101|Loss Function|
+|Neural Networks|30102|Activation Function|
+|Neural Networks|30103|Weight Initialization|
+|Neural Networks|30104|Gradient Problem|
+|Architectures|30200|CNN| 
+|Architectures|30201|RNN|
+|Architectures|30202|Transformer|
+|Architectures|30203|Siamese Network|
+|Architectures|30204|GAN|
+|Architectures|30205|Evolving Architectures|
+|Architectures|30206|Residual Connections|
+|Training|30300|Optimazation|
+|Training|30301|Learning Rate Schedule|
+|Training|30302|Batch Normalization|
+|Training|30303|Batch Size Effects|
+|Training|30304|Regularization|
+|Training|30305|Multitask Learning|
+|Training|30306|Transfer Learning|
+|Tools|30400|Awesome Deep Learning|
+|Tools|30401|Huggingface Transformers|
+|Tools|30402|TensorFlow|
+|Tools|30403|PyTorch|
+|Tools|30404|Tensorboard|
+|Tools|30405|MLFlow|
+|Model Optimization|30500|Distillation|
+|Model Optimization|30501|Quantization|
+|Model Optimization|30502|Neural Architecture Search|
 
 ## Data Engineer
-|구분|역량|
-|--|--|
-|General|Summary of Data Formats|
-|General|Data Discovery|
-|General|Data Source & Acquisition|
-|General|Data Integration|
-|General|Data Fusion|
-|General|Transformation|
-|General|Data Survey|
-|General|OpenRefine|
-|General|Data Lake vs Data Warehouse|
+|구분|id|역량|
+|--|--|--|
+|General|40000|Summary of Data Formats|
+|General|40001|Data Discovery|
+|General|40002|Data Source & Acquisition|
+|General|40003|Data Integration|
+|General|40004|Data Fusion|
+|General|40005|Transformation|
+|General|40006|Data Survey|
+|General|40007|OpenRefine|
+|General|40008|Data Lake vs Data Warehouse|
