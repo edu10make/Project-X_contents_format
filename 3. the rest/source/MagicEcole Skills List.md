@@ -4,15 +4,16 @@
 ## Fundamentals
 
 ### Basic
-
-- 행렬 & 선형대수
-- DataBase 기초
-- Tabular Data
-- Data Frames & Series
-- Extract, Transform, Load (ETL)
-- Reporting vs BI vs Analytics
-- Data Format
-- Regular Expression
+|구분|역량|
+|--|--|
+|Basic|행렬 & 선형대수|
+|Basic|DataBase 기초|
+|Basic|Tabular Data|
+|Basic|Data Frames & Series|
+|Basic|Extract, Transform, Load (ETL)|
+|Basic|Reporting vs BI vs Analytics|
+|Basic|Data Format|
+|Basic|Regular Expression|
 
 ### Python Programming
 
