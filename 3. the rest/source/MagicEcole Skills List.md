@@ -111,23 +111,14 @@
 |Model Optimization|Neural Architecture Search|
 
 ## Data Engineer
-
-### Summary of Data Formats
-
-### Data Discovery
-
-### Data Source & Acquisition
-
-### Data Integration
-
-### Data Fusion
-
-### Transformation
-
-### Data Survey
-
-### OpenRefine
-
-### Data Lake vs Data Warehouse
-
-*XMind - Trial Version*
+|구분|역량|
+|--|--|
+|General|Summary of Data Formats|
+|General|Data Discovery|
+|General|Data Source & Acquisition|
+|General|Data Integration|
+|General|Data Fusion|
+|General|Transformation|
+|General|Data Survey|
+|General|OpenRefine|
+|General|Data Lake vs Data Warehouse|
