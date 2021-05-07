@@ -199,20 +199,34 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
 
 ```json
 "skills": {
-        "require": [
-            "Fundamentals > Python Programming > Python Basics",
-            "Fundamentals > Python Programming >  Numpy",
-            "Fundamentals > Python Programming > Pandas"
-        ],
+        "require": [ 00100, 00101, 00102, 00104],
         "acquire": [
-            "Deep Learning > Neural Networks > Activation Functions",
-            "Deep Learning > Neural Networks > Understanding Nerual Networks",
-            "Deep Learning > Architectures > CNN",
+            30100,
+	    30102,
+            30200,
             "Deep Learning > Traning > Optimizers",
             "Deep Learning > Tools > TenosorFlow"
         ]
     }
 ```
+> 프로젝트를 수행하기 위해 필요한 역량과 프로젝트 종료 후 얻을 수 있는 역량은 다음과 같습니다. 
+
+|-|구분| id | 역량 |
+|--|--|--|--|
+| `필요 역량` | Python Programming | 00100|Python Basic|
+| `필요 역량` | Python Programming |00101|	Numpy|
+| `필요 역량` | Python Programming |00102| Pandas|
+| `필요 역량` | Python Programming |00104|	Jupyter Notebooks|
+| `달성 역량` |Neural Networks |30100| Understanding Neural Networks |
+| `달성 역량` |Neural Networks|30102| Activation Function |
+| `달성 역량` |Architectures|30200|CNN|
+| `달성 역량` |Training|30300|Optimizers|
+| `달성 역량` |Tools|30402|TensorFlow|
+
+
+![image](https://user-images.githubusercontent.com/68315073/117421304-62d4de80-af59-11eb-99d3-c068c16f2fdc.png)
+> 참조: 프로젝트 역량 기준표
+
 
 ## 1.8 project : 선수 프로젝트와 추천 프로젝트
 해당 프로젝트를 수행하기 전에 필수적으로 수행해야 할 `선수 프로젝트`와 해당 프로젝트를 완수했을 떄 이어서 수행할만한 `추천 프로젝트`입니다.</br></br>
