@@ -1,4 +1,5 @@
-# MagicEcole Badge System
+# Level System
+![MagicEcole Badge System](https://user-images.githubusercontent.com/68315073/117410993-0f10c800-af4e-11eb-944a-ef5180ad76e1.png)
 
 ## Fundamentals
 
