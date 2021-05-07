@@ -192,7 +192,9 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
  
 ## 1.7 skills : 필요 역량과 달성 역량
 프로젝트와 관련된 역량입니다. </br></br>
-모든 역량은 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/MagicEcole%20Skills%20List.md)를 보고 작성합니다.</br></br> 
+모든 역량은 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/MagicEcole%20Skills%20List.md)를 보고 해당되는 역량의 `id`를 기입합니다.</br></br> 
+예를 들어, 어떤 프로젝트를 수행하기 위해 필요한 역량이 "Data Base 기초"라면 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/MagicEcole%20Skills%20List.md)에서 "Data Base 기초"의 `id`가 '00001'인 것을 확인한 후 `require`에 '00001'을 기입합니다.</br></br> 
+추후에 **역량 리스트의 확장**이 필요하다면 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/MagicEcole%20Skills%20List.md)를 업데이트한 이후 추가된 역량의 id를 기입합니다. </br></br> 
 프로젝트 역량은 프로젝트를 '수행하기 위해 필요한 역량'과 프로젝트를 수행했을 때 '달성할 수 있는 역량'으로 구분하여 작성합니다.
 - `require`에는 프로젝트를 수행하기 위해 필요한 역량을 작성합니다. 선수 프로젝트 등을 기입할 수 있습니다.
 - `acqure`에는 프로젝트를 수행하고 나면 얻을 수 있는 역량입니다. 이 프로젝트를 통해 달성할 수 있는 학습 성과들을 기입합니다.
@@ -231,7 +233,7 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
 
 ## 1.8 projects : 선수 프로젝트와 추천 프로젝트
 해당 프로젝트를 수행하기 전에 필수적으로 수행해야 할 `선수 프로젝트`와 해당 프로젝트를 완수했을 떄 이어서 수행할만한 `추천 프로젝트`입니다.</br></br>
-`선수 프로젝트`와 `추천 프로젝트`는 `숫자`로 프로젝트 `id`를 입력합니다. 
+`선수 프로젝트`와 `추천 프로젝트`는 프로젝트 `id`를 `숫자`로 입력합니다. 
 - `require` : 해당 프로젝트를 수행하기 전 필수적으로 수행해야 할 프로젝트 `id`
 - `acqure` : 해당 프로젝트를 완수했다면 이어서 수행할만한 프로젝트 `id`
 
