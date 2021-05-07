@@ -230,6 +230,7 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
 | Training|30300|Optimizers|
 | Tools|30402|TensorFlow|
 
+> 즉, 해당 프로젝트를 수행하기 이전 학생은 다른 프로젝트를 통해 'Python Basic', 'Numpy', 'Pandas', 'Jupyter Notebooks' 역량을 갖고있어야 하며, 이 프로젝트가 종료되면 'Understanding Neural Networks', 'Activation Function', 'CNN', 'Optimizers', 'TensorFlow' 총 5가지 역량을 달성할 수 있습니다. 
 
 ## 1.8 projects : 선수 프로젝트와 추천 프로젝트
 해당 프로젝트를 수행하기 전에 필수적으로 수행해야 할 `선수 프로젝트`와 해당 프로젝트를 완수했을 떄 이어서 수행할만한 `추천 프로젝트`입니다.</br></br>
@@ -261,6 +262,7 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
 | 8739 | 모션 인식 `예시` |
 | 9498 | 안면 인식 `예시`  |
 
+> 즉 해당 프로젝트를 수행하기 이전에 학생들은 '트윈 미터 개발' 프로젝트, '뇌 CT분석2' 프로젝트, 'MNIST3' 프로젝트를 완수한 상태여야 합니다. 
 
 
 
