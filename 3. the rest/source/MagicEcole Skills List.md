@@ -52,7 +52,7 @@
 |Visualization|10106|Tableau|
 |Visualization|10107|Power BI|
 
-## Machine Learning
+## 2. Machine Learning
 
 |구분|id|역량|
 |--|--|--|
@@ -75,7 +75,7 @@
 |Tools|20300|scikit-learn|
 |Tools|20301|spacy(NLP)|
 
-## Deep Learning
+## 3. Deep Learning
 |구분|id|역량|
 |--|--|--|
 |papers|30000|papers with code|
@@ -108,7 +108,7 @@
 |Model Optimization|30501|Quantization|
 |Model Optimization|30502|Neural Architecture Search|
 
-## Data Engineer
+## 4. Data Engineer
 |구분|id|역량|
 |--|--|--|
 |General|40000|Summary of Data Formats|
