@@ -1,58 +1,56 @@
 # Level System
 ![MagicEcole Badge System](https://user-images.githubusercontent.com/68315073/117410993-0f10c800-af4e-11eb-944a-ef5180ad76e1.png)
 
-## Fundamentals
+## 0. Fundamentals
+|구분|id|역량|
+|--|--|--|
+|Basic|00000|행렬 & 선형대수|
+|Basic|00001|DataBase 기초|
+|Basic|00002|Tabular Data|
+|Basic|00003|Data Frames & Series|
+|Basic|00004|Extract, Transform, Load (ETL)|
+|Basic|00005|Reporting vs BI vs Analytics|
+|Basic|00006|Data Format|
+|Basic|00007|Regular Expression|
+|Python Programming|00100|Python Basic|
+|Python Programming|00101|Numpy|
+|Python Programming|00102|Pandas|
+|Python Programming|00103|Virtual Environments|
+|Python Programming|00104|Jupyter Notebooks|
+|Data Source|00200|Data Mining|
+|Data Source|00201|Web Scraping|
+|Data Source|00202|Public Datasets|
+|Data Source|00203|Kaggle|
+|Data Munging|00300|Dimensionality|
+|Data Munging|00301|Nomalization|
+|Data Munging|00302|Data Scrubbing|
+|Data Munging|00303|Unbiased Estimators|
+|Data Munging|00304|Binning sparse values|
+|Data Munging|00305|Feature Extraction|
+|Data Munging|00306|Denosing|
+|Data Munging|00307|Sampling|
 
-### Basic
-|구분|역량|
-|--|--|
-|Basic|행렬 & 선형대수|
-|Basic|DataBase 기초|
-|Basic|Tabular Data|
-|Basic|Data Frames & Series|
-|Basic|Extract, Transform, Load (ETL)|
-|Basic|Reporting vs BI vs Analytics|
-|Basic|Data Format|
-|Basic|Regular Expression|
-|Python Programming|Python Basic|
-|Python Programming|Numpy|
-|Python Programming|Pandas|
-|Python Programming|Virtual Environments|
-|Python Programming|Jupyter Notebooks|
-|Data Source|Data Mining|
-|Data Source|Web Scraping|
-|Data Source|Public Datasets|
-|Data Source|Kaggle|
-|Data Munging|Dimensionality|
-|Data Munging|Nomalization|
-|Data Munging|Data Scrubbing|
-|Data Munging|Unbiased Estimators|
-|Data Munging|Binning sparse values|
-|Data Munging|Feature Extraction|
-|Data Munging|Denosing|
-|Data Munging|Sampling|
+## 1. Data Scientist
 
-## Data Scientist
-
-|구분|역량|
-|--|--|
-|Statistic|Probability Theory|
-|Statistic|Continuous distribution|
-|Statistic|Discrete distribution|
-|Statistic|Summary statistic|
-|Statistic|important laws|
-|Statistic|Estimation|
-|Statistic|Hypothesis Testing|
-|Statistic|Confidence Interval|
-|Statistic|Monte Carlo Method|
-|Visualization|Matplotlib|
-|Visualization|plotnine|
-|Visualization|Borkeh|
-|Visualization|seaborn|
-|Visualization|ipyvolume (3D data)|
-|Visualization|Dash|
-|Visualization|Tableau|
-|Visualization|Power BI|
+|구분|id|역량|
+|--|--|--|
+|Statistic|10000|Probability Theory|
+|Statistic|10001|Continuous distribution|
+|Statistic|10002|Discrete distribution|
+|Statistic|10003|Summary statistic|
+|Statistic|10004|important laws|
+|Statistic|10005|Estimation|
+|Statistic|10006|Hypothesis Testing|
+|Statistic|10007|Confidence Interval|
+|Statistic|10008|Monte Carlo Method|
+|Visualization|10100|Matplotlib|
+|Visualization|10101|plotnine|
+|Visualization|10102|Borkeh|
+|Visualization|10103|seaborn|
+|Visualization|10104|ipyvolume (3D data)|
+|Visualization|10105|Dash|
+|Visualization|10106|Tableau|
+|Visualization|10107|Power BI|
 
 ## Machine Learning
 
