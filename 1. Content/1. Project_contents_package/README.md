@@ -211,21 +211,22 @@ IoT 전문회사인 MeasureWare 사의 기반서비스는 현장에 설치되어
 ```
 > 프로젝트를 수행하기 위해 필요한 역량과 프로젝트 종료 후 얻을 수 있는 역량은 다음과 같습니다. 
 
-|-|구분| id | 역량 |
-|--|--|--|--|
-| `필요 역량` | Python Programming | 00100|Python Basic|
-| `필요 역량` | Python Programming |00101|	Numpy|
-| `필요 역량` | Python Programming |00102| Pandas|
-| `필요 역량` | Python Programming |00104|	Jupyter Notebooks|
-| `달성 역량` |Neural Networks |30100| Understanding Neural Networks |
-| `달성 역량` |Neural Networks|30102| Activation Function |
-| `달성 역량` |Architectures|30200|CNN|
-| `달성 역량` |Training|30300|Optimizers|
-| `달성 역량` |Tools|30402|TensorFlow|
+**필요 역량**
+구분| id | 역량 |
+|--|--|--|
+| Python Programming | 00100|Python Basic|
+| Python Programming |00101|	Numpy|
+| Python Programming |00102| Pandas|
+| Python Programming |00104|	Jupyter Notebooks|
 
-
-![image](https://user-images.githubusercontent.com/68315073/117421304-62d4de80-af59-11eb-99d3-c068c16f2fdc.png)
-> 참조: 프로젝트 역량 기준표
+**달성 역량**
+구분| id | 역량 |
+|--|--|--|
+| Neural Networks |30100| Understanding Neural Networks |
+| Neural Networks|30102| Activation Function |
+| Architectures|30200|CNN|
+| Training|30300|Optimizers|
+| Tools|30402|TensorFlow|
 
 
 ## 1.8 projects : 선수 프로젝트와 추천 프로젝트
