@@ -19,6 +19,7 @@ learning_resource는 `json`파일로써 **여러 개의 학습 리소스 객체*
 ![슬라이드3](https://user-images.githubusercontent.com/68315073/116506694-b8c1da80-a8f8-11eb-9aee-8a8563d0add1.PNG)
 Learning_Resource의 항목과 코드 연결
 
+<br><br>
 ## 3.1 id : 고유번호
 
 리소스를 구분하기 위해 입력하는 각 미션의 식별자입니다. </br></br>
@@ -34,6 +35,7 @@ Learning_Resource의 항목과 코드 연결
 
 > 해당 리소스의 `id(고유번호)`는 '2'입니다. 
 
+<br><br>
 ## 3.2 subject : 주제
 
 학습 리소스의 `주제`를 `문자열`을 사용하여 한 문장으로 요약합니다. <br>
@@ -50,6 +52,7 @@ Learning_Resource의 항목과 코드 연결
 
 > 아래 링크로 접속하면 "이미지의 기하학적 변형에 대한 이해"에 대한 정보를 얻을 수 있습니다. 
 
+<br><br>
 ## 3.3 url : 링크
 
 해당 학습 리소스가 들어있는 `url`을 기록합니다.
