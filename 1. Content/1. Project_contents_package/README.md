@@ -603,8 +603,7 @@ Learning_Resource의 항목과 코드 연결
 
 ### 개요
 
-![Untitled Diagram_](C:\Users\public.JONGHOONJUNG-MA\Desktop\Untitled Diagram_.png)
-Assessment 구조
+![Untitled Diagram](https://user-images.githubusercontent.com/68315073/117620295-547e0100-b1ab-11eb-8253-ca398ed82f58.png)
 
 하나의 Asessment Directory는 여러 개의 JSON파일을 담고 있습니다. <br><br>
 
@@ -616,9 +615,8 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 
 최종적으로 평가 항목들이 나열된 평가 화면에서 평가자들은 평가를 진행합니다. 
 
-![image-20210510153121747](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510153121747.png)
+![image](https://user-images.githubusercontent.com/68315073/117620331-5f389600-b1ab-11eb-9ac1-03c7c6843c93.png)
 
-> 평가 예시 화면
 
 ### 목차
 
