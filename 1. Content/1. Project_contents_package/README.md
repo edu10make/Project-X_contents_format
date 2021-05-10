@@ -603,7 +603,8 @@ Learning_Resource의 항목과 코드 연결
 
 ### 개요
 
-![Untitled Diagram](https://user-images.githubusercontent.com/68315073/117620295-547e0100-b1ab-11eb-8253-ca398ed82f58.png)
+![Untitled Diagram_](https://user-images.githubusercontent.com/68315073/117620469-78414700-b1ab-11eb-9cc0-24ec48d98417.png)
+
 
 하나의 Asessment Directory는 여러 개의 JSON파일을 담고 있습니다. <br><br>
 
