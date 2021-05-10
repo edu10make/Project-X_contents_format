@@ -548,8 +548,7 @@ learning_resource는 `json`파일로써 **여러 개의 학습 리소스 객체*
 ### 목차
 
 ![슬라이드3](https://user-images.githubusercontent.com/68315073/116506694-b8c1da80-a8f8-11eb-9aee-8a8563d0add1.PNG)
-
-> Learning_Resource의 항목과 코드 연결
+Learning_Resource의 항목과 코드 연결
 
 ## 3.1 id : 고유번호
 
@@ -605,8 +604,7 @@ learning_resource는 `json`파일로써 **여러 개의 학습 리소스 객체*
 ### 개요
 
 ![Untitled Diagram_](C:\Users\public.JONGHOONJUNG-MA\Desktop\Untitled Diagram_.png)
-
-> Assessment 구조
+Assessment 구조
 
 하나의 Asessment Directory는 여러 개의 JSON파일을 담고 있습니다. <br><br>
 
