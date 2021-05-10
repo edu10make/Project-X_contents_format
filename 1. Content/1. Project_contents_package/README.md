@@ -681,6 +681,7 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 ```
 
 > 해당 평가 문항은 radio 유형이며 보기 중 하나를 선택합니다. 
+
 ![image](https://user-images.githubusercontent.com/68315073/117620726-b8082e80-b1ab-11eb-9025-481bbfcfed6d.png)
 
 
@@ -688,7 +689,8 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 "type": "checkbox"
 ```
 
-> 해당 평가 문항은 checkbox 유형으로 다음 보기 중 해당되는 항목을 모두 선택할 수 있습니다. 
+> 해당 평가 문항은 checkbox 유형으로 다음 보기 중 해당되는 항목을 모두 선택할 수 있습니다.  
+
 ![image](https://user-images.githubusercontent.com/68315073/117620747-bd657900-b1ab-11eb-9915-fa7d1dfc2bce.png)
 
 
@@ -697,6 +699,7 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 ```
 
 > 해당 평가 문항은 서술형 평가를 요구합니다. 
+
 ![image](https://user-images.githubusercontent.com/68315073/117620763-c0f90000-b1ab-11eb-8e0c-b4f038ee5ba2.png)
 
 
