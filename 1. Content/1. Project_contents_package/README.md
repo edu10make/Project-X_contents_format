@@ -684,24 +684,21 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 ```
 
 > 해당 평가 문항은 radio 유형이며 보기 중 하나를 선택합니다. 
->
-> ![image-20210510160507705](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160507705.png)
+![image-20210510160507705](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160507705.png)
 
 ```json
 "type": "checkbox"
 ```
 
 > 해당 평가 문항은 checkbox 유형으로 다음 보기 중 해당되는 항목을 모두 선택할 수 있습니다. 
->
-> ![image-20210510160907712](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160907712.png)
+![image-20210510160907712](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160907712.png)
 
 ```json
 "type": "textarea"
 ```
 
 > 해당 평가 문항은 서술형 평가를 요구합니다. 
->
-> ![image-20210510161132969](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510161132969.png)
+![image-20210510161132969](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510161132969.png)
 
 ## 4.5 option : 선택 항목
 
@@ -717,8 +714,7 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 ```
 
 > 해당 평가 문항은 "예" 와 "아니오" 중 선택하는 2지 선다 문제입니다.
->
-> ![image-20210510160507705](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160507705.png)
+![image-20210510160507705](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160507705.png)
 
 <br><br>
 
