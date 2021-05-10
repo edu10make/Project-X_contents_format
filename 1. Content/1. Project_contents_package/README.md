@@ -1,33 +1,6 @@
 
 # 콘텐츠 포맷 명세서
 
-<table>
-    <thead>
-        <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
-    </tbody>
-</table>
-
 ### 개요
 교육을 진행하기 위해 개발한 교육용 콘텐츠의 **표준화된 포맷**을 **정의**합니다.</br>
 개발한 교육용 콘텐츠를 **표준화된 포맷**으로 변환하여 저장해두었다가 필요에 따라 **콘텐츠를 LMS시스템에 탑재하여** 교육을 진행합니다. </br>
