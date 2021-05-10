@@ -32,35 +32,10 @@
 
 | 순번 |     파일 이름     |  형식   |                             설명                             |
 | :--: | :---------------: | :-----: | :----------------------------------------------------------: |
-|  1   |    Definition     | `.json` |         프로젝트 전체를 포괄하는 정보를 기입합니다.          |
-|  2   |    Description    | `.json` |     프로젝트를 구성하는 각각의 미션에 대해서 기입합니다.     |
-|  3   | Learning Resource | `.json` | 학생들이 프로젝트를 수행하기 위해 참고할 수 있는 학습 리소스에 대해 기입합니다. |
-|  4   |    Assessment     | `폴더`  | 학생들의 미션 수행을 평가할 수 있는 항목들과 기준에 대해 기입합니다. |
-|  5   | Assessment_Guide  |  `.md`  | 평가자들이 미션을 수행한 학생들을 평가할 때, 참고할 수 있는 문서입니다. |
-|  6   |     Data_File     | `.tar`  | 학생들이 프로젝트를 수행할 때 필요한 데이터 파일을 제공하는 압축 파일입니다. |
+|  1   |    [Definition](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/1.%20Definition)     | `.json` |         프로젝트 전체를 포괄하는 정보를 기입합니다.          |
+|  2   |    [Description](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/2.%20Description)    | `.json` |     프로젝트를 구성하는 각각의 미션에 대해서 기입합니다.     |
+|  3   | [Learning Resource](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/3.%20Learning_Resource) | `.json` | 학생들이 프로젝트를 수행하기 위해 참고할 수 있는 학습 리소스에 대해 기입합니다. |
+|  4   |    [Assessment](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/4.%20Assessment)    | `폴더`  | 학생들의 미션 수행을 평가할 수 있는 항목들과 기준에 대해 기입합니다. |
+|  5   | [Assessment_Guide](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/5.%20Assessment_Gude)  |  `.md`  | 평가자들이 미션을 수행한 학생들을 평가할 때, 참고할 수 있는 문서입니다. |
+|  6   |     [Data_File](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/6.%20Data_File)     | `.tar`  | 학생들이 프로젝트를 수행할 때 필요한 데이터 파일을 제공하는 압축 파일입니다. |
 
-**하단에 작성될 설명서에 포함되는 이미지와 .json형식은 "project_2 : 계량기 읽기"를 예시로 하여 작성되었습니다.**<br>
-
-# [1. Definition : 프로젝트 정의](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/1.%20Definition)
-
-
-# [2. Description : 프로젝트 기술 문서](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/2.%20Description)
-
-
-
-
-# [3. Learning_Resource : 프로젝트 리소스](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/3.%20Learning_Resource)
-
-
-
-
-# [4. Assessment : 프로젝트 평가 요소](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/4.%20Assessment)
-
-
-
-
-# [5. Assessment Guide : 프로젝트 평가 가이드](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/5.%20Assessment_Gude)
-
-
-
-# [6. Data File : 프로젝트 데이터 파일](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/6.%20Data_File)
