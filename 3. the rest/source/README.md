@@ -1,7 +1,7 @@
 <table>
 <thead>
   <tr>
-    <th>no.</th>
+    <th>id</th>
     <th>카테고리</th>
     <th>경험</th>
     <th>난이도</th>
