@@ -31,7 +31,7 @@
 콘텐츠 포맷은 크게 **'6개의 파트'** 로 구성됩니다.
 
 | 순번 |     파일 이름     |  형식   |                             설명                             |
-| :--: | :---------------: | :-----: | :----------------------------------------------------------: |
+| :--: | :--------------- | :-----: | :---------------------------------------------------------- |
 |  1   |    [Definition](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/1.%20Definition)     | `.json` |         프로젝트 전체를 포괄하는 정보를 기입합니다.          |
 |  2   |    [Description](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/2.%20Description)    | `.json` |     프로젝트를 구성하는 각각의 미션에 대해서 기입합니다.     |
 |  3   | [Learning Resource](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/3.%20Learning_Resource) | `.json` | 학생들이 프로젝트를 수행하기 위해 참고할 수 있는 학습 리소스에 대해 기입합니다. |
