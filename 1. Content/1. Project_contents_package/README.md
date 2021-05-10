@@ -717,7 +717,8 @@ LMS는 Assessment Directory에 존재하는 JSON파일들을 읽어와 평가 �
 ```
 
 > 해당 평가 문항은 "예" 와 "아니오" 중 선택하는 2지 선다 문제입니다.
-![image-20210510160507705](C:\Users\public.JONGHOONJUNG-MA\AppData\Roaming\Typora\typora-user-images\image-20210510160507705.png)
+
+![image](https://user-images.githubusercontent.com/68315073/117620930-f7367f80-b1ab-11eb-8121-017c0a1f03de.png)
 
 <br><br>
 
