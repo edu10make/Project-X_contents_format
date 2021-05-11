@@ -29,10 +29,10 @@
         ],
         "acquire": [
             "Deep Learning > Neural Networks > Activation Functions",
-            "Deep Learning > Neural Networks > Understanding Nerual Networks",
+            "Deep Learning > Neural Networks > Understanding Neural Networks",
             "Deep Learning > Architectures > CNN",
-            "Deep Learning > Traning > Optimizers",
-            "Deep Learning > Tools > TenosorFlow"
+            "Deep Learning > Training > Optimizers",
+            "Deep Learning > Tools > TensorFlow"
         ]
     }
 }
