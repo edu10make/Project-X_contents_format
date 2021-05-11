@@ -16,7 +16,7 @@
 
 프로젝트를 구분하기 위해 각 프로젝트의 `id(고유 번호)`입니다. </br>
 
-프로젝트의 `id(고유번호)`는 4자리 `숫자`로 구성되며, 서로 다른 프로젝트는 동일한 `id`를 가질 수 없습니다.</br>
+프로젝트의 `id(고유번호)`는 n자리 `숫자`로 구성되며, 서로 다른 프로젝트는 동일한 `id`를 가질 수 없습니다.</br>
 
 프로젝트 `id(고유번호)`는 **Project-X의 프로젝트 순서 규칙**에 따라 각 프로젝트에게 할당됩니다. </br>
 
@@ -73,7 +73,7 @@
 
  프로젝트의 `분야`와 `지식 수준`을 `분야/지식 수준`의 형식으로 `문자열`로 입력합니다. </br>
  
- 입력하는 프로젝트의 `분야`와 `지식 수준`은 PSI에서 제공하는 [**'tech skill 역량명세서 - 수준 구분'**](https://drive.google.com/file/d/1vOcfcDQvWGrcwZy681pAUfqYj5tk9NED/view?usp=sharing)을 참고하여 작성합니다. </br>
+ 입력하는 프로젝트의 `분야`와 `지식 수준`은 '재단법인 이노베이션 아카데미'의 [**한국형 소프트웨어 분야 역량모델(Project-X)**](https://github.com/PSIConsulting/Project-X) 중 [**'tech skill 역량명세서 - 수준 구분'**](https://drive.google.com/file/d/1vOcfcDQvWGrcwZy681pAUfqYj5tk9NED/view?usp=sharing)을 참고하여 작성합니다. </br>
  
  해당 항목을 통해 학생들은 프로젝트를 시작하기 전, 프로젝트가 어떤 `분야`에 속해있으며 프로젝트에서 요구하는 `지식 수준`은 어느정도인지 파악할 수 있습니다. 
 
