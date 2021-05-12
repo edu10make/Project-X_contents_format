@@ -12,9 +12,9 @@
 
 물론 실제 평가는 LMS가 `프로젝트 평가 요소(4. Assessment)`를 읽어 구성한 평가 화면에서 진행하되, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. 
 
----
-
 <br><br>
+
+---
 
 #  프로젝트 평가가이드 예시
 ## 1️⃣ 미션 정보
@@ -65,8 +65,11 @@
 
 이번 미션의 출제 의도는 데이터 분석과 관련된 라이브러리를 제대로 사용할 수 있는 가를 평가함에 있다. 
 
+<br>
+<br>
+
 ---
-<br>
-<br>
+
+
 # 평가 가이드 PDF 변환 예시
 [assessment_guide_2-1.pdf](https://github.com/edu10make/Project-X_contents_format/files/6462760/assessment_guide_2-1.pdf)
