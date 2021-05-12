@@ -10,7 +10,9 @@
 
 <img src="https://user-images.githubusercontent.com/68315073/117620331-5f389600-b1ab-11eb-9ac1-03c7c6843c93.png" width="70%" height="70%">
 
-물론 실제 평가는 LMS가 `프로젝트 평가 요소(4. Assessment)`를 읽어 구성한 평가 화면에서 진행하되, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. 
+물론 실제 평가는 LMS가 `프로젝트 평가 요소(4. Assessment)`를 읽어 구성한 평가 화면에서 진행하되, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. <br>
+
+> 평가사이트 운영 방법에 대해 더 자세히 알아보려면 [평가사이트 운영가이드](https://github.com/edu10make/Project-X_contents_format/blob/main/2.%20Operation/%ED%8F%89%EA%B0%80%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%9A%B4%EC%98%81%EA%B0%80%EC%9D%B4%EB%93%9C_.pdf)를 참조
 
 <br><br>
 
