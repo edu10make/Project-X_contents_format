@@ -74,8 +74,7 @@
 
 # 평가 가이드 PDF 변환 예시
 
-<img src="https://user-images.githubusercontent.com/68315073/117905061-78f1ee80-b30d-11eb-8d33-caebdd26cbc2.png" width="50%" height="70%">
-<img src="https://user-images.githubusercontent.com/68315073/117905085-86a77400-b30d-11eb-9357-cfc9919d74fd.png" width="50%" height="70%">
+<img src="https://user-images.githubusercontent.com/68315073/117905061-78f1ee80-b30d-11eb-8d33-caebdd26cbc2.png" width="50%" height="70%"><img src="https://user-images.githubusercontent.com/68315073/117905085-86a77400-b30d-11eb-9357-cfc9919d74fd.png" width="50%" height="70%">
 
 
 [assessment_guide_2-1.pdf](https://github.com/edu10make/Project-X_contents_format/files/6462760/assessment_guide_2-1.pdf)
