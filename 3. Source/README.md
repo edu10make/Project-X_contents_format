@@ -4,5 +4,5 @@
 
 |순번|파일명|형식|설명|
 |-|-|-|-|
-|1|MagicEco_Skill_List|`json`| |
+|1|MagicEco_Skill_List|`json`| AMAI GmbH에서 작성한 AI전문가 로드맵을 참고하여 작성한 매직에코 AI 전문가 로드맵입니다.|
 |2|tech_skill|`json`| PSI에서 정의한 tech_skill을 json파일로 변환하였습니다.|
