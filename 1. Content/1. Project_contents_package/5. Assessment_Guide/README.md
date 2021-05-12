@@ -4,7 +4,7 @@
 
 `프로젝트 평가가이드`는 각 미션마다 LMS에 업로드되며 평가자가 해당 문서를 읽고 평가를 진행합니다.<br>
 
-![image](https://user-images.githubusercontent.com/68315073/117620331-5f389600-b1ab-11eb-9ac1-03c7c6843c93.png)
+![image](https://user-images.githubusercontent.com/68315073/117620331-5f389600-b1ab-11eb-9ac1-03c7c6843c93.png){: width="50%" height="50%"}
 
 실제 평가는 LMS가 `4. Assessment(프로젝트 평가 요소)`를 읽어 구성한 평가 화면에서 진행하며, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. 
 
