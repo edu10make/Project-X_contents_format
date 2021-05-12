@@ -1,4 +1,10 @@
 # Level System
+## 개요
+
+AMAI GmbH에서 작성한 [AI전문가 로드맵](https://github.com/AMAI-GmbH/AI-Expert-Roadmap/)을 참고하여 작성한 매직에코 AI 전문가 로드맵입니다.<br>
+
+각각의 `역량`은 `대분류`, `중분류`로 구분되며 `id`값을 갖습니다. <br>
+
 <img src="https://user-images.githubusercontent.com/68315073/117410993-0f10c800-af4e-11eb-944a-ef5180ad76e1.png" width="50%" height="50%">
 
 ## 0. Fundamentals
