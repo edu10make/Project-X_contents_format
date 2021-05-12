@@ -1,5 +1,5 @@
 # Level System
-![MagicEcole Badge System](https://user-images.githubusercontent.com/68315073/117410993-0f10c800-af4e-11eb-944a-ef5180ad76e1.png)
+<img src="https://user-images.githubusercontent.com/68315073/117410993-0f10c800-af4e-11eb-944a-ef5180ad76e1.png" width="50%" height="50%">
 
 ## 0. Fundamentals
 |구분|id|역량|
