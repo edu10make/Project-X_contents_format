@@ -45,3 +45,9 @@
 |`Image Data Generator`|	6. Image Data Generator를 사용하였는가?|
 |`Image Data Generator`| 7. 발표를 잘할 수록 높은 점수 부여|
 
+### 퀴즈 문항
+|구분|평가 항목|정답|
+|:--------:|:----------|:-|
+|`Data Analysis`|이미지를 pyplot에서 출력하기 위해서 사용하는 메소드는?|imshow()|
+|`Data Split`|train_test_split을 사용할 때, 실행 시 마다 같은 학습 데이터를 얻고 싶다. 어떤 인자 값을 어떻게 해야 하는가?|random_state에 임의의 값을 넣어준다. 시드를 고정하기 때문에 실생 시마다 같은 학습 데이터를 얻는다.|
+
