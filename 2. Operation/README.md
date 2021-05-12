@@ -1,6 +1,7 @@
 ## Project-X contents Format - 2. Operation</br>
 
-현재 Repository는 Project-X의 운영 절차에 대한 내용을 담고 있습니다.
+
+현재 디렉토리는 Project-X의 운영 절차에 대한 내용을 담고 있습니다.
 
 |순번|파일명|형식|설명|
 |-|-|-|-|
