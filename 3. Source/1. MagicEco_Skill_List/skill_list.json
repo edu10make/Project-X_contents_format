@@ -1,0 +1,589 @@
+[{
+        "id": "00000",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "행렬 & 선형대수"
+    },
+    {
+        "id": "00001",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "DataBase 기초"
+    },
+    {
+        "id": "00002",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "Tabular Data"
+    },
+    {
+        "id": "00003",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "Data Frames & Series"
+    },
+    {
+        "id": "00004",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "Extract, Transform, Load (ETL)"
+    },
+    {
+        "id": "00005",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "Reporting vs BI vs Analytics"
+    },
+    {
+        "id": "00006",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "Data Format"
+    },
+    {
+        "id": "00007",
+        "대분류": "Fundamentals",
+        "중분류": "Basic",
+        "역량": "Regular Expression"
+    },
+    {
+        "id": "00100",
+        "대분류": "Fundamentals",
+        "중분류": "Python Programming",
+        "역량": "Python Basic"
+    },
+    {
+        "id": "00101",
+        "대분류": "Fundamentals",
+        "중분류": "Python Programming",
+        "역량": "Numpy"
+    },
+    {
+        "id": "00102",
+        "대분류": "Fundamentals",
+        "중분류": "Python Programming",
+        "역량": "Pandas"
+    },
+    {
+        "id": "00103",
+        "대분류": "Fundamentals",
+        "중분류": "Python Programming",
+        "역량": "Virtual Environments"
+    },
+    {
+        "id": "00104",
+        "대분류": "Fundamentals",
+        "중분류": "Python Programming",
+        "역량": "Jupyter Notebooks"
+    },
+    {
+        "id": "00200",
+        "대분류": "Fundamentals",
+        "중분류": "Data Source",
+        "역량": "Data Mining"
+    },
+    {
+        "id": "00201",
+        "대분류": "Fundamentals",
+        "중분류": "Data Source",
+        "역량": "Web Scraping"
+    },
+    {
+        "id": "00202",
+        "대분류": "Fundamentals",
+        "중분류": "Data Source",
+        "역량": "Public Datasets"
+    },
+    {
+        "id": "00203",
+        "대분류": "Fundamentals",
+        "중분류": "Data Source",
+        "역량": "Kaggle"
+    },
+    {
+        "id": "00300",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Dimensionality"
+    },
+    {
+        "id": "00301",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Nomalization"
+    },
+    {
+        "id": "00302",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Data Scrubbing"
+    },
+    {
+        "id": "00303",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Unbiased Estimators"
+    },
+    {
+        "id": "00304",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Binning sparse values"
+    },
+    {
+        "id": "00305",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Feature Extraction"
+    },
+    {
+        "id": "00306",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Denosing"
+    },
+    {
+        "id": "00307",
+        "대분류": "Fundamentals",
+        "중분류": "Data Munging",
+        "역량": "Sampling"
+    },
+    {
+        "id": 10000,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Probability Theory"
+    },
+    {
+        "id": 10001,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Continuous distribution"
+    },
+    {
+        "id": 10002,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Discrete distribution"
+    },
+    {
+        "id": 10003,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Summary statistic"
+    },
+    {
+        "id": 10004,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "important laws"
+    },
+    {
+        "id": 10005,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Estimation"
+    },
+    {
+        "id": 10006,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Hypothesis Testing"
+    },
+    {
+        "id": 10007,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Confidence Interval"
+    },
+    {
+        "id": 10008,
+        "대분류": "Data Scientist",
+        "중분류": "Statistic",
+        "역량": "Monte Carlo Method"
+    },
+    {
+        "id": 10100,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "Matplotlib"
+    },
+    {
+        "id": 10101,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "plotnine"
+    },
+    {
+        "id": 10102,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "Borkeh"
+    },
+    {
+        "id": 10103,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "seaborn"
+    },
+    {
+        "id": 10104,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "ipyvolume (3D data)"
+    },
+    {
+        "id": 10105,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "Dash"
+    },
+    {
+        "id": 10106,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "Tableau"
+    },
+    {
+        "id": 10107,
+        "대분류": "Data Scientist",
+        "중분류": "Visualization",
+        "역량": "Power BI"
+    },
+    {
+        "id": 20000,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Concepts"
+    },
+    {
+        "id": 20001,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Cost function and gradient descent"
+    },
+    {
+        "id": 20002,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Overfitting / Underfitting"
+    },
+    {
+        "id": 20003,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Training, validation, and test data"
+    },
+    {
+        "id": 20004,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Precision vs Recall"
+    },
+    {
+        "id": 20005,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Bias & Variance"
+    },
+    {
+        "id": 20006,
+        "대분류": "Machine Learning",
+        "중분류": "General",
+        "역량": "Lift"
+    },
+    {
+        "id": 20100,
+        "대분류": "Machine Learning",
+        "중분류": "Methods",
+        "역량": "Regression"
+    },
+    {
+        "id": 20101,
+        "대분류": "Machine Learning",
+        "중분류": "Methods",
+        "역량": "Classification"
+    },
+    {
+        "id": 20102,
+        "대분류": "Machine Learning",
+        "중분류": "Methods",
+        "역량": "Clustering"
+    },
+    {
+        "id": 20103,
+        "대분류": "Machine Learning",
+        "중분류": "Methods",
+        "역량": "Ensemble Learning"
+    },
+    {
+        "id": 20104,
+        "대분류": "Machine Learning",
+        "중분류": "Methods",
+        "역량": "Reinforce Learning"
+    },
+    {
+        "id": 20200,
+        "대분류": "Machine Learning",
+        "중분류": "Use Cases",
+        "역량": "Sentiment Analysis"
+    },
+    {
+        "id": 20201,
+        "대분류": "Machine Learning",
+        "중분류": "Use Cases",
+        "역량": "Collaborative Filtering"
+    },
+    {
+        "id": 20202,
+        "대분류": "Machine Learning",
+        "중분류": "Use Cases",
+        "역량": "Tagging"
+    },
+    {
+        "id": 20203,
+        "대분류": "Machine Learning",
+        "중분류": "Use Cases",
+        "역량": "Prediction"
+    },
+    {
+        "id": 20300,
+        "대분류": "Machine Learning",
+        "중분류": "Tools",
+        "역량": "scikit-learn"
+    },
+    {
+        "id": 20301,
+        "대분류": "Machine Learning",
+        "중분류": "Tools",
+        "역량": "spacy(NLP)"
+    },
+    {
+        "id": 30000,
+        "대분류": "Deep Learning",
+        "중분류": "papers",
+        "역량": "papers with code"
+    },
+    {
+        "id": 30100,
+        "대분류": "Deep Learning",
+        "중분류": "Neural Networks",
+        "역량": "Understanding Neural Networks"
+    },
+    {
+        "id": 30101,
+        "대분류": "Deep Learning",
+        "중분류": "Neural Networks",
+        "역량": "Loss Function"
+    },
+    {
+        "id": 30102,
+        "대분류": "Deep Learning",
+        "중분류": "Neural Networks",
+        "역량": "Activation Function"
+    },
+    {
+        "id": 30103,
+        "대분류": "Deep Learning",
+        "중분류": "Neural Networks",
+        "역량": "Weight Initialization"
+    },
+    {
+        "id": 30104,
+        "대분류": "Deep Learning",
+        "중분류": "Neural Networks",
+        "역량": "Gradient Problem"
+    },
+    {
+        "id": 30200,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "CNN"
+    },
+    {
+        "id": 30201,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "RNN"
+    },
+    {
+        "id": 30202,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "Transformer"
+    },
+    {
+        "id": 30203,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "Siamese Network"
+    },
+    {
+        "id": 30204,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "GAN"
+    },
+    {
+        "id": 30205,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "Evolving Architectures"
+    },
+    {
+        "id": 30206,
+        "대분류": "Deep Learning",
+        "중분류": "Architectures",
+        "역량": "Residual Connections"
+    },
+    {
+        "id": 30300,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Optimazation"
+    },
+    {
+        "id": 30301,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Learning Rate Schedule"
+    },
+    {
+        "id": 30302,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Batch Normalization"
+    },
+    {
+        "id": 30303,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Batch Size Effects"
+    },
+    {
+        "id": 30304,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Regularization"
+    },
+    {
+        "id": 30305,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Multitask Learning"
+    },
+    {
+        "id": 30306,
+        "대분류": "Deep Learning",
+        "중분류": "Training",
+        "역량": "Transfer Learning"
+    },
+    {
+        "id": 30400,
+        "대분류": "Deep Learning",
+        "중분류": "Tools",
+        "역량": "Awesome Deep Learning"
+    },
+    {
+        "id": 30401,
+        "대분류": "Deep Learning",
+        "중분류": "Tools",
+        "역량": "Huggingface Transformers"
+    },
+    {
+        "id": 30402,
+        "대분류": "Deep Learning",
+        "중분류": "Tools",
+        "역량": "TensorFlow"
+    },
+    {
+        "id": 30403,
+        "대분류": "Deep Learning",
+        "중분류": "Tools",
+        "역량": "PyTorch"
+    },
+    {
+        "id": 30404,
+        "대분류": "Deep Learning",
+        "중분류": "Tools",
+        "역량": "Tensorboard"
+    },
+    {
+        "id": 30405,
+        "대분류": "Deep Learning",
+        "중분류": "Tools",
+        "역량": "MLFlow"
+    },
+    {
+        "id": 30500,
+        "대분류": "Deep Learning",
+        "중분류": "Model Optimization",
+        "역량": "Distillation"
+    },
+    {
+        "id": 30501,
+        "대분류": "Deep Learning",
+        "중분류": "Model Optimization",
+        "역량": "Quantization"
+    },
+    {
+        "id": 30502,
+        "대분류": "Deep Learning",
+        "중분류": "Model Optimization",
+        "역량": "Neural Architecture Search"
+    },
+    {
+        "id": 40000,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Summary of Data Formats"
+    },
+    {
+        "id": 40001,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Data Discovery"
+    },
+    {
+        "id": 40002,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Data Source & Acquisition"
+    },
+    {
+        "id": 40003,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Data Integration"
+    },
+    {
+        "id": 40004,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Data Fusion"
+    },
+    {
+        "id": 40005,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Transformation"
+    },
+    {
+        "id": 40006,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Data Survey"
+    },
+    {
+        "id": 40007,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "OpenRefine"
+    },
+    {
+        "id": 40008,
+        "대분류": "Data Engineer",
+        "중분류": "General",
+        "역량": "Data Lake vs Data Warehouse"
+    }
+]
