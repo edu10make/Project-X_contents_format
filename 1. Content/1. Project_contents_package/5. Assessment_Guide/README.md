@@ -8,6 +8,12 @@
 
 `markdown`형식으로 작성된 `프로젝트 평가가이드`는 각 미션마다 `PDF`형식으로 변환되어 LMS에 업로드되며 평가자가 해당 문서를 읽고 평가를 진행합니다.<br>
 
+<img src="https://user-images.githubusercontent.com/68315073/117620331-5f389600-b1ab-11eb-9ac1-03c7c6843c93.png" width="70%" height="70%">
+
+물론 실제 평가는 LMS가 `프로젝트 평가 요소(4. Assessment)`를 읽어 구성한 평가 화면에서 진행하되, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. 
+
+<br><br>
+
 
 ---
 
@@ -69,17 +75,3 @@
 # 평가 가이드 PDF 변환 예시
 [assessment_guide_2-1.pdf](https://github.com/edu10make/Project-X_contents_format/files/6462760/assessment_guide_2-1.pdf)
 
-# 활용
-
-<br>
-<br>
-
----
-
-
-
-<img src="https://user-images.githubusercontent.com/68315073/117620331-5f389600-b1ab-11eb-9ac1-03c7c6843c93.png" width="70%" height="70%">
-
-물론 실제 평가는 LMS가 `프로젝트 평가 요소(4. Assessment)`를 읽어 구성한 평가 화면에서 진행하되, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. 
-
-<br><br>
