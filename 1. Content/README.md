@@ -1,6 +1,6 @@
 ## Project-X contents Format - 1. Contents</br>
 
-현재 Repository는 Project-X의 콘텐츠의 표준 포맷과 콘텐츠의 내용에 대해 서술하고 있습니다. 
+현재 디렉토리는 Project-X의 콘텐츠의 표준 포맷과 콘텐츠의 내용에 대해 서술하고 있습니다. 
 
 > 콘텐츠 표준 포맷에 대해 더 자세히 알아보려면 [여기](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package)를 클릭하세요
 
