@@ -50,6 +50,6 @@
 |  2   |    [Description](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/2.%20Description)    | `.json` |     프로젝트를 구성하는 각각의 미션에 대해서 기입합니다.     |
 |  3   | [Learning Resource](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/3.%20Learning_Resource) | `.json` | 학생들이 프로젝트를 수행하기 위해 참고할 수 있는 학습 리소스에 대해 기입합니다. |
 |  4   |    [Assessment](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/4.%20Assessment)    | `폴더`  | 학생들의 미션 수행을 평가할 수 있는 항목들과 기준에 대해 기입합니다. |
-|  5   | [Assessment_Guide](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/5.%20Assessment_Gude)  |  `.md`  | 평가자들이 미션을 수행한 학생들을 평가할 때, 참고할 수 있는 문서입니다. |
+|  5   | [Assessment_Guide](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/5.%20Assessment_Guide)  |  `.md`  | 평가자들이 미션을 수행한 학생들을 평가할 때, 참고할 수 있는 문서입니다. |
 |  6   |     [Data_File](https://github.com/edu10make/Project-X_contents_format/tree/main/1.%20Content/1.%20Project_contents_package/6.%20Data_File)     | `.tar`  | 학생들이 프로젝트를 수행할 때 필요한 데이터 파일을 제공하는 압축 파일입니다. |
 
