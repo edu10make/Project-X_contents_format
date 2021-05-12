@@ -12,8 +12,10 @@
 
 물론 실제 평가는 LMS가 `프로젝트 평가 요소(4. Assessment)`를 읽어 구성한 평가 화면에서 진행하되, 평가자는 해당 화면에서 평가하기 전 `평가 가이드`를 읽고 평가해야할 방향을 결정합니다. 
 
-<br><br>
 ---
+
+<br><br>
+
 #  프로젝트 평가가이드 예시
 ## 1️⃣ 미션 정보
 ### 평가 미션
@@ -60,9 +62,11 @@
  이번 미션에서 가장 핵심적인 부분은 주어진 데이터를 training set과 test set으로 구분하는 비율에 있다. 주어진 Data Set이 많지 않으므로 training set에 많은 data를 할당하면 test 결과를 신뢰할 수 없고, test set에 많은 데이터를 할당하면 좋은 모델을 만들 수 없다. 이 때, 이상적인 test set과 training set의 비율은 1:7 정도이다. 이 때, sklearn의 train_test_split model을 사용하지 않았음은 감점 요소가 아니다. 
 
 ### 출제자의 의도
+
 이번 미션의 출제 의도는 데이터 분석과 관련된 라이브러리를 제대로 사용할 수 있는 가를 평가함에 있다. 
-<br>
-<br>
+
 ---
+<br>
+<br>
 # 평가 가이드 PDF 변환 예시
 [assessment_guide_2-1.pdf](https://github.com/edu10make/Project-X_contents_format/files/6462760/assessment_guide_2-1.pdf)
