@@ -1,39 +1,33 @@
 {
-    "id": 10025,
-    "title": "미터기 읽기",
-    "estimated_time":50,
-    "class": [
-        "AI/Data분석/Edu4",
-        "AI/모델개발/Edu4",
-        "AI/AIOps/Edu4",
-        "Back-end/Edu4"
-    ],
-    "story": "https://github.com/edu10make/Project-X_contents_format/blob/junseok/Project/story/no_show.md",
-    "objects": {
-        "main_object": "수도 계량기의 숫자를 읽어서 웹서버에 보여주는 digital twin기능을 구현하라, 실시간 분석 및 액튜에이션 확장기능 개발",
-        "detailed_objects": ["현장에 설치된 계량기의 이미지 데이터를 취득하라",
-            "계량기 숫자 부분의 이미지 추출하라",
-            "클라우드 서비스를 이용하여 추출한 이미지에서 문자를 인식하라",
-            "머신러닝 알고리즘을 탐색하여 기반으로 사용할 알고리즘을 선택하라",
-            "수천 장 이미지를 갖고 각각의 사진에 레이블링을 어떻게 할 지 기술적으로 궁리하라",
-            "파이썬 툴을 사용하여 수천 장 이미지를 적절한 하나의 데이터 화일로 구성하라",
-            "몇 장의 표본에 대해 머신러닝 Training을 진행할지에 대한 판단기준 세워라",
-            "인식한 숫자를 웹서버에 표기하는 digital twin meter를 구현하라"
-        ]
-    },
-    "skills": {
-        "require": [
-            "Fundamentals > Python Programming > Python Basics",
-            "Fundamentals > Python Programming >  Numpy",
-            "Fundamentals > Python Programming > Pandas"
-        ],
-        "acquire": [
-            "Deep Learning > Neural Networks > Activation Functions",
-            "Deep Learning > Neural Networks > Understanding Neural Networks",
-            "Deep Learning > Architectures > CNN",
-            "Deep Learning > Training > Optimizers",
-            "Deep Learning > Tools > TensorFlow"
-        ]
-    }
+  "id": 10025,
+  "title": "미터기 읽기",
+  "estimated_time": 50,
+  "class": [
+    "AI/Data분석/Edu4",
+    "AI/모델개발/Edu4",
+    "AI/AIOps/Edu4",
+    "Back-end/Edu4"
+  ],
+  "story": "머신러닝(인공지능)은 축적된 데이타의 분석으로부터 시작되기때문에 풀고자 하는 대상으로부터 관측된 디지탈화된 원천데이타가 필요하다. 첨단 원격검침 기능을 가진 첨단 계량기들이 있지만, 이미 현실세계에는 수많은 아날로그 계량기들이 설치되어있어서 필요시 사람이 현장에서 상태를 알 수 있도로 한다. 대부분의 아날로그 계량기들이 필요시 확인만 하면 되는 목적이겠지만, 어떤 계량기들은 단위시간당 변화량을 계속 점검할 필요가 있거나, 현장의 여러 목적으로 설치된 계량기들의 값을 종합적으로 보고 상태를 진단할 목적, 혹은 사람이 직접 해당 장소를 방문하여 주기적으로 현장의 계량기 미터값을 기록하기 어려운 문제 등 여러 이유와 요구에 따라 바늘형, 혹은 숫자형 레거니 아날로그 계량기의 값을 머신러닝 기법을 이용하여 자동으로 인식하여 수집하는 시스템이 기술적가치, 사업적 가치를 가질 수 있다. 시스템은 크게 3부분으로 구성된다. 기존의 아날로그 계량기 어떤 것이든 해당이 되지만, 여기서는 우리 주변에서 흔히 찾아볼 수 있는 '수도계량기'를 대상으로 한다. 수도계량기는 수도 사용량 측정용이지만 오래된 아파트의 적산열량계에도 사용되어 소정의 계산규칙을 적용하여 '사용열량' 으로 환산해서 사용할 수도 있다.",
+  "objects": {
+    "main_object": "수도 계량기의 숫자를 읽어서 웹서버에 보여주는 digital twin기능을 구현하라, 실시간 분석 및 액튜에이션 확장기능 개발",
+    "detailed_objects": [
+      "현장에 설치된 계량기의 이미지 데이터를 취득하라",
+      "계량기 숫자 부분의 이미지 추출하라",
+      "클라우드 서비스를 이용하여 추출한 이미지에서 문자를 인식하라",
+      "머신러닝 알고리즘을 탐색하여 기반으로 사용할 알고리즘을 선택하라",
+      "수천 장 이미지를 갖고 각각의 사진에 레이블링을 어떻게 할 지 기술적으로 궁리하라",
+      "파이썬 툴을 사용하여 수천 장 이미지를 적절한 하나의 데이터 화일로 구성하라",
+      "몇 장의 표본에 대해 머신러닝 Training을 진행할지에 대한 판단기준 세워라",
+      "인식한 숫자를 웹서버에 표기하는 digital twin meter를 구현하라"
+    ]
+  },
+  "skills": {
+    "require": ["00100", "00101", "00102", "30402"],
+    "acquire": ["20000", "20101", "20003", "30100", "30200", "30300"]
+  },
+  "projects": {
+    "require": [],
+    "acquire": []
+  }
 }
-
