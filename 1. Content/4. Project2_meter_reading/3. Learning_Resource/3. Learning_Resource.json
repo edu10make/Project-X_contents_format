@@ -1,0 +1,20 @@
+[
+    {
+        "subject": "이미지의 기하학적 변형에 대한 이해",
+        "link": "https://opencv-python.readthedocs.io/en/latest/doc/10.imageTransformation/imageTransformation.html"
+    },
+    {
+        "subject": "threshold(이미지 임계처리)에 대한 이해",
+        "link": "https://opencv-python.readthedocs.io/en/latest/doc/09.imageThresholding/imageThresholding.html"
+    },
+    {
+        "subject": "Fashion MNIST : 첫 번째 신경망 훈련하기",
+        "link": "https://www.tensorflow.org/tutorials/keras/classification?hl=ko"
+    }, 
+    {
+        "subject": "수도 계량기 이미지 파일 다운로드 받기",
+        "link": "https://drive.google.com/file/d/1EihUQdxjdJ6RfFpuV8ay4ZoeQ8_MLDJx/view?usp=sharing"
+    }
+]
+
+
