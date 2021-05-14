@@ -100,13 +100,13 @@
 
 따라서 프로젝트의 `목적`에는 프로젝트를 수행하고 나면 경험할 수 있는 역량을 작성합니다. </br>
 
-모든 `목적`은 [tech skill 역량명세서 - 경험리스트](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/README.md)를 보고 해당되는 역량의 `id`를 `숫자`로 기입합니다. </br>
+모든 `목적`은 [tech skill 역량명세서 - 경험리스트](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)를 보고 해당되는 역량의 `id`를 `숫자`로 기입합니다. </br>
 
 만약, 한 미션의 `경험(목적)`이 여러 개일 경우, 각각의 `경험(목적)`을 `문자열`로 변환하여 `배열`에 기입합니다. </br>
 
-예를 들어, 어떤 미션을 통해  "센서를 통해 들어오는 연속된 데이터를 처리"를 경험할 수 있다면,  [tech skill 역량명세서 - 경험리스트](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/README.md)에서 경험 : "센서를 통해 들어오는 연속된 데이터를 처리할 수 있다"의 `id`가 '1'인 것을 확인한 후 `object`에 '1'을 기입합니다.</br>
+예를 들어, 어떤 미션을 통해  "센서를 통해 들어오는 연속된 데이터를 처리"를 경험할 수 있다면,  [tech skill 역량명세서 - 경험리스트](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)에서 경험 : "센서를 통해 들어오는 연속된 데이터를 처리할 수 있다"의 `id`가 '1'인 것을 확인한 후 `object`에 '1'을 기입합니다.</br>
 
-추후에 **경험 리스트의 확장**이 필요하다면 [tech skill 역량명세서 - 경험리스트](https://github.com/edu10make/Project-X_contents_format/blob/main/3.%20the%20rest/source/README.md)를 업데이트한 이후 추가된 경험의 `id`를 기입합니다. </br>
+추후에 **경험 리스트의 확장**이 필요하다면 [tech skill 역량명세서 - 경험리스트](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)를 업데이트한 이후 추가된 경험의 `id`를 기입합니다. </br>
 
 ### 예시
 
