@@ -236,11 +236,11 @@
 ## 1.7 skills : 필요 역량과 달성 역량
 
 프로젝트와 관련된 역량입니다. </br></br>
-모든 역량은 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)를 보고 해당되는 역량의 `id`를 `문자열`로 기입합니다.</br>
+모든 역량은 [매직에코 skill list](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/1.%20MagicEco_Skill_List)를 보고 해당되는 역량의 `id`를 `문자열`로 기입합니다.</br>
 
-예를 들어, 어떤 프로젝트를 수행하기 위해 필요한 역량이 "Data Base 기초"라면 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)에서 "Data Base 기초"의 `id`가 '00001'인 것을 확인한 후 `require`에 '00001'을 기입합니다.</br>
+예를 들어, 어떤 프로젝트를 수행하기 위해 필요한 역량이 "Data Base 기초"라면 [매직에코 skill list](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/1.%20MagicEco_Skill_List)에서 "Data Base 기초"의 `id`가 '00001'인 것을 확인한 후 `require`에 '00001'을 기입합니다.</br>
 
-추후에 **역량 리스트의 확장**이 필요하다면 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)를 업데이트한 이후 추가된 역량의 id를 기입합니다. </br>
+추후에 **역량 리스트의 확장**이 필요하다면 [매직에코 skill list](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/1.%20MagicEco_Skill_List)를 업데이트한 이후 추가된 역량의 id를 기입합니다. </br>
 
 프로젝트 역량은 프로젝트를 '수행하기 위해 필요한 역량'과 프로젝트를 수행했을 때 '달성할 수 있는 역량'으로 구분하여 작성합니다.
 - `require`에는 프로젝트를 수행하기 위해 필요한 역량을 작성합니다. 선수 프로젝트 등을 기입할 수 있습니다.
