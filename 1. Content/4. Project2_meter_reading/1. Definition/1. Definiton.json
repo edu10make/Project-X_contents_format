@@ -22,18 +22,18 @@
         ]
     },
     "skills": {
-        "require": [
-            "Fundamentals > Python Programming > Python Basics",
-            "Fundamentals > Python Programming >  Numpy",
-            "Fundamentals > Python Programming > Pandas"
-        ],
+        "require": ["00100", "00101", "00102", "00104"],
         "acquire": [
-            "Deep Learning > Neural Networks > Activation Functions",
-            "Deep Learning > Neural Networks > Understanding Neural Networks",
-            "Deep Learning > Architectures > CNN",
-            "Deep Learning > Training > Optimizers",
-            "Deep Learning > Tools > TensorFlow"
+            "30100",
+            "30102",
+            "30200",
+            "30300",
+            "30402"
         ]
+    },
+    "projects": {
+        "require": [653, 3840, 1596],
+        "acquire": [10024]
     }
 }
 
