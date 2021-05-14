@@ -236,7 +236,7 @@
 ## 1.7 skills : 필요 역량과 달성 역량
 
 프로젝트와 관련된 역량입니다. </br></br>
-모든 역량은 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)를 보고 해당되는 역량의 `id`를 기입합니다.</br>
+모든 역량은 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)를 보고 해당되는 역량의 `id`를 `문자열`로 기입합니다.</br>
 
 예를 들어, 어떤 프로젝트를 수행하기 위해 필요한 역량이 "Data Base 기초"라면 [프로젝트 역량 기준표](https://github.com/edu10make/Project-X_contents_format/tree/main/3.%20Source/2.%20Tech_Skill)에서 "Data Base 기초"의 `id`가 '00001'인 것을 확인한 후 `require`에 '00001'을 기입합니다.</br>
 
@@ -250,13 +250,13 @@
 
 ```json
 "skills": {
-        "require": [ 00100, 00101, 00102, 00104],
+        "require": [ "00100", "00101", "00102", "00104"],
         "acquire": [
-            30100,
-	    30102,
-            30200,
-            30300,
-            30402
+            "30100",
+	    "30102",
+            "30200",
+            "30300",
+            "30402"
         ]
     }
 ```
