@@ -1,9 +1,13 @@
-[{
-    "item": "추출한 이미지에서 숫자를 정확하게 인식하였나요?",
+[
+  {
+    "item": "google tesseract가 잘 작동하였습니까?",
     "class": "Computer Vision",
     "type": "radio",
-    "option": [
-        "예",
-        "아니오"
-    ]
-}]
+    "option": ["예", "아니오"]
+  },
+  {
+    "item": "인식율이 몇 % 인가요?",
+    "class": "Computer Vision",
+    "type": "text"
+  }
+]
